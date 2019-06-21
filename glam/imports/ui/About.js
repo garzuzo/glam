@@ -7,11 +7,9 @@ export default class About extends Component {
  
   render() {
 
-    let style={
-        backgroundColor:"#7C5CFF"
-    }
+  
     return (
-      <div className="container" id="AboutUs" style={style}>
+      <div className="containerAbout" id="AboutUs" >
        <h1>Sobre nosotros</h1>
  
 

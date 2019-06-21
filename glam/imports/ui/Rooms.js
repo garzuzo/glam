@@ -11,14 +11,11 @@ export default class Rooms extends Component {
             
             width: "700px"  
         }
-        let styleRoomBG = {
-            backgroundColor: "#5FFF63",
-            
-        }
+       
         return (
             <div className="Rooms text-center" id="Rooms">
                 <h1>Habitaciones</h1>
-                <Carousel style={styleRoom}>
+                <Carousel className="d-block w-100" style={styleRoom}>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
@@ -56,18 +53,18 @@ export default class Rooms extends Component {
                     </Carousel.Item>
                 </Carousel>
 
+<h2>¡Encuentra lo que necesitas!</h2>
 
 
 
-
-                <div className="container" style={styleRoomBG}>
+                <div className="containerRooms" >
                     <div className="row">
                         <div className="col-sm">
                             <img className="img-fluid" style={styleRoom} src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
                         </div>
 
                         <div className="col-sm">
-                            <p>Habitacion con los servicios blabla</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.</p>
                         </div>
 
                         <div className="col-sm">
@@ -75,17 +72,17 @@ export default class Rooms extends Component {
                         </div>
                     </div>
                 </div>
+<br></br>
 
 
-
-                <div className="container" style={styleRoomBG}>
+                <div className="containerRooms">
                     <div className="row">
                         <div className="col-sm">
                             <img className="img-fluid" style={styleRoom} src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
                         </div>
 
                         <div className="col-sm">
-                            <p>Habitacion con los servicios blabla</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.</p>
                         </div>
 
                         <div className="col-sm">

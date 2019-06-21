@@ -8,8 +8,8 @@ export default class CarouselHome extends Component {
   render() {
     let carouselSize={width:"700px"}
     return (
-      <div className="CarouselHome" id="CarouselHome" style={carouselSize}>
-        <Carousel>
+      <div className="CarouselHome" id="CarouselHome" >
+        <Carousel className="d-block w-100">
   <Carousel.Item>
     <img
       className="d-block w-100"

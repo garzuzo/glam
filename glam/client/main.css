@@ -2,14 +2,25 @@
 @import "https://fonts.googleapis.com/css?family=Anton&display=swap" ;
 @import "https://fonts.googleapis.com/css?family=Raleway&display=swap";
 body {
-  padding: 10px;
+  
   font-family: sans-serif;
 }
+
+
+#appContainer{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin: 0;
+  padding: 0;
+}
+.nav-item > .active {
+  border-bottom: 1px solid #333;
+}
+/*
 h1{
   font-family: 'Anton', sans-serif;
 color:#FFFFFF;
 }
-
 p{
   
   font-family: 'Raleway', sans-serif;
@@ -18,3 +29,14 @@ p{
 h2{
   font-family: 'Libre Baskerville', serif;
 }
+
+ let styleRoomBG = {
+            backgroundColor: "#5FFF63",
+            
+        }
+
+          let styleAboutUs={
+        backgroundColor:"#7C5CFF"
+    }
+    let backgroundContact = { backgroundColor: "#CC7A37" }
+*/

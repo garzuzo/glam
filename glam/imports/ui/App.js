@@ -10,7 +10,7 @@ export default class App extends Component {
  
   render() {
     return (
-      <div className="container">
+      <div className="App" id="appContainer">
          
           <NavbarHome></NavbarHome>
 <CarouselHome></CarouselHome>
