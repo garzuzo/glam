@@ -8,18 +8,18 @@ export default class Rooms extends Component {
     render() {
 
         let styleRoom = {
-            
-            width: "700px"  
+
+            width: "700px"
         }
-       
+
         return (
-            <div className="Rooms text-center" id="Rooms">
-                <h1>Habitaciones</h1>
+            <div className="Rooms " id="Rooms">
+
                 <Carousel className="d-block w-100" style={styleRoom}>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
                             alt="First slide"
                         />
                         <Carousel.Caption>
@@ -30,7 +30,7 @@ export default class Rooms extends Component {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            src="https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
                             alt="Third slide"
                         />
 
@@ -42,7 +42,7 @@ export default class Rooms extends Component {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://images.pexels.com/photos/1531672/pexels-photo-1531672.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
                             alt="Third slide"
                         />
 
@@ -53,14 +53,14 @@ export default class Rooms extends Component {
                     </Carousel.Item>
                 </Carousel>
 
-<h2>¡Encuentra lo que necesitas!</h2>
+                <h1>¡Encuentra la habitación que necesitas!</h1>
 
 
 
-                <div className="containerRooms" >
+                <div className="containerRooms pb-2" >
                     <div className="row">
                         <div className="col-sm">
-                            <img className="img-fluid" style={styleRoom} src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                            <img className="img-fluid" style={styleRoom} src="https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940" />
                         </div>
 
                         <div className="col-sm">
@@ -68,13 +68,44 @@ export default class Rooms extends Component {
                         </div>
 
                         <div className="col-sm">
+                            <p>  Número de Camas:
+                                2 Matrimoniales</p>
+                            <p>Número de Personas: 4</p>
+
+                            <ul>
+                                <h5>Servicios y Comodidades:</h5>
+                                <li>
+                                    •	Desayuno P.A.M
+
+
+                            </li>
+                                <li>
+                                    •	Aire Acondicionado (A.A.)
+
+</li>
+                                <li>
+                                    •	Wifi – Ilimitado
+
+</li>
+                                <li>
+                                    •	Smart TV con Netflix
+
+</li>
+                                <li>
+                                    •	Baño Privado
+
+</li>
+                                <li>
+                                    •	Llamadas Nacionales Ilimitadas
+</li>
+                            </ul>
                             <p>Desde $90.000</p>
                         </div>
                     </div>
                 </div>
-<br></br>
+          
 
-
+<hr></hr>
                 <div className="containerRooms">
                     <div className="row">
                         <div className="col-sm">
@@ -86,6 +117,38 @@ export default class Rooms extends Component {
                         </div>
 
                         <div className="col-sm">
+
+                            <p>  Número de Camas:
+                                2 Matrimoniales</p>
+                            <p>Número de Personas: 4</p>
+
+                            <ul>
+                                <h5>Servicios y Comodidades:</h5>
+                                <li>
+                                    •	Desayuno P.A.M
+
+
+                            </li>
+                                <li>
+                                    •	Aire Acondicionado (A.A.)
+
+</li>
+                                <li>
+                                    •	Wifi – Ilimitado
+
+</li>
+                                <li>
+                                    •	Smart TV con Netflix
+
+</li>
+                                <li>
+                                    •	Baño Privado
+
+</li>
+                                <li>
+                                    •	Llamadas Nacionales Ilimitadas
+</li>
+                            </ul>
                             <p>Desde $90.000</p>
                         </div>
                     </div>

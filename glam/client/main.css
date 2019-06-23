@@ -1,11 +1,22 @@
-@import "https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap";
-@import "https://fonts.googleapis.com/css?family=Anton&display=swap" ;
-@import "https://fonts.googleapis.com/css?family=Raleway&display=swap";
+
+@import "https://fonts.googleapis.com/css?family=Playfair+Display&display=swap";
+@import "https://fonts.googleapis.com/css?family=Open+Sans&display=swap";
 body {
   
-  font-family: sans-serif;
+ /** font-family: 'Open Sans', sans-serif;
+   font-family: 'Playfair Display', serif;  
+  background-color: #92B6A7;
+ */
+ font-family: 'Open Sans', sans-serif;
+
+ 
 }
 
+#appContainer{
+  /**
+  background-color: #92B6A7;
+  */  
+}
 
 #appContainer{
   margin-left: 0px;
@@ -13,8 +24,63 @@ body {
   margin: 0;
   padding: 0;
 }
-.nav-item > .active {
+.nav-link > .active {
   border-bottom: 1px solid #333;
+ 
+}
+
+.nav-link{
+  text-align: center;
+  display: flex;
+}
+ul{
+  list-style: none;
+  }
+
+#navbarHome{
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  
+ 
+  
+  width:100%;
+  
+  /**width: $sidebar-base-width;height: 100vh;*/
+ 
+}
+
+#footer{
+  background-color: #212522;
+  color:#FFFFFF;
+}
+
+#Rooms{
+  background-color:white;
+  color:#212522;
+}
+
+#AboutUs{
+  /**
+  background-color: #A56251;
+  color:white;
+  */
+}
+h1{
+  color: #146B3E;
+  font-weight: bold;
+}
+h5{
+  color: #A56251;
+  font-weight: bold;
+}
+#Contact{
+    /**
+  background-color: #92B6A7;
+  */
 }
 /*
 h1{

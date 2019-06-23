@@ -49,8 +49,8 @@ export default class Contact extends Component {
 
 
         return (
-            <div className="containerContact" id="Contact" >
-                <h1>Contactanos</h1>
+            <div className="container pb-2" id="Contact" >
+                <h1>Contáctanos</h1>
 
                 <form>
                 <div className="form-group">

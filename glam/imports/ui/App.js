@@ -4,6 +4,7 @@ import NavbarHome from './NavbarHome.js';
  import About from './About';
  import Rooms from './Rooms';
  import Contact from './Contact';
+ import Footer from './Footer';
 // App component - represents the whole app
 export default class App extends Component {
   
@@ -17,6 +18,8 @@ export default class App extends Component {
  <About></About>
  <Rooms></Rooms>
  <Contact></Contact>
+
+ <Footer></Footer>
       </div>
     );
   }

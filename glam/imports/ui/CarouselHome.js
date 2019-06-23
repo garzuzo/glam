@@ -13,7 +13,7 @@ export default class CarouselHome extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
+      src="https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -24,7 +24,7 @@ export default class CarouselHome extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      src="https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
       alt="Third slide"
     />
 
