@@ -76,7 +76,7 @@ export default class Contact extends Component {
                         <label htmlFor="exampleFormControlTextarea1">¡Cuentamos!</label>
                         <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                    <button type="submit" className="btn btn-primary">Enviar</button>
+                    <button type="submit" className="btn btn-success">Enviar</button>
                 </form>
             </div>
         );

@@ -1,6 +1,7 @@
 
 @import "https://fonts.googleapis.com/css?family=Playfair+Display&display=swap";
 @import "https://fonts.googleapis.com/css?family=Open+Sans&display=swap";
+@import "https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy&display=swap";
 body {
   
  /** font-family: 'Open Sans', sans-serif;
@@ -54,8 +55,8 @@ ul{
 }
 
 #footer{
-  background-color: #212522;
-  color:#FFFFFF;
+  background-color: #F0F0F0;
+  color:#212522;
 }
 
 #Rooms{
@@ -68,6 +69,9 @@ ul{
   background-color: #A56251;
   color:white;
   */
+}
+h3{
+  font-family: 'Sorts Mill Goudy', serif;
 }
 h1{
   color: #146B3E;

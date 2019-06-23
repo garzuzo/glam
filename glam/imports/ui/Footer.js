@@ -7,8 +7,8 @@ export default class Footer extends Component {
 
     render() {
         return (
-            <div id="footer" className="Footer text-center pt-3">
-
+            <div className="Footer text-center ">
+<div id="footer" className="pt-3">
                 <div className="row">
 
                     <div className="col-sm">
@@ -33,7 +33,7 @@ export default class Footer extends Component {
 
                 </div>
 
-
+                </div>
 
                 <h6>©2019-Johnatan Garzón</h6>
 
