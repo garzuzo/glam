@@ -1,0 +1,66 @@
+{
+    "_locale": "es-ES",
+    "_namespace": "Common",
+    "navbar": {
+        "aboutUs": "Sobre nosotros",
+        "rooms": "Habitaciones",
+        "contact": "Contáctanos",
+        "selectLanguage": "Seleccionar Lenguaje"
+    },
+    "about": {
+        "title":"Sobre nosotros",
+        "intro": {
+            "firstParagraph": "Si estás pensando en Confort, Economía y Diversión, ¡Hotel GLAM es tu mejor opción!",
+            "secondParagraph": "Situado en el distinguido sector de Granada a pocos pasos de la zona mejor Zona Gastronómica de Cali, Boutiques de los más reconocidos diseñadores de Colombia, con los mejores Sitios de Rumba y Diversión."
+        },
+        "ourIncludedServices": {
+            "title":"Nuestros Servicios Incluidos",
+            "item1": "Atención personalizada a nuestros Huéspedes",
+            "item2": "Habitaciones completamente nuevas y confortables",
+            "item3": "Internet Wifi Ilimitado – Banda Ancha",
+            "item4": "Netflix para tu Diversión las 24 Horas",
+            "item5": "Llamadas Nacionales Ilimitadas – Sin Costo",
+            "item6": "Programas de Diversión - Sitios de Interés",
+            "item7": "Recepción y Seguridad las 24 Horas"
+        },
+        "aditionalServices": {
+            "title":"Servicios Adicionales",
+            "item1": "Restaurante y Bar dentro del Hotel",
+            "item2": "Servicio de Lavandería"
+        }
+    },
+    "rooms": {
+        "title":"¡Encuentra la habitación que necesitas!",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
+        "totalBeds":"Número de Camas: 2 Matrimoniales.",
+        "totalPeople":"Número de Personas: 4.",
+        "services":{
+        "servicesTitle":"Servicios y Comodidades:",
+        "item1":"• Desayuno P.A.M",
+        "item2":"• Aire Acondicionado (A.A.)",
+        "item3":"• Wifi – Ilimitado",
+        "item4":"• Smart TV con Netflix",
+        "item5":"• Baño Privado",
+        "item6":"• Llamadas Nacionales Ilimitadas",
+        "price":"Desde $90.000"
+        }
+      
+    },
+    "footer": {
+"ubication":"Ubicación:",
+"phone":"Teléfonos:",
+"title":"TU HOGAR EN LA SUCURSAL DEL CIELO"
+    },
+    "contact": {
+        "title":"Contáctanos",
+        "name":"Nombre",
+        "email":"Correo electrónico",
+        "totalPeople":"Número de personas",
+        "reserveDate":"Fecha de reserva",
+        "sinceDate":"Desde",
+        "untilDate":"Hasta",
+        "comments":"¡Cuentanos!",
+        "send":"Enviar"
+    }
+  
+}

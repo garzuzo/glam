@@ -1,0 +1,64 @@
+{
+    "_locale": "en-US",
+    "_namespace": "Common",
+    "navbar": {
+        "aboutUs": "About Us",
+        "rooms": "Rooms",
+        "contact": "Contact",
+        "selectLanguage": "Select Language"
+    },
+    "about": {
+        "title": "About Us",
+        "intro": {
+            "firstParagraph": "If you are thinking in confort, Economía y Diversión, ¡Hotel GLAM es tu mejor opción!",
+            "secondParagraph": "Glam is situated in a really prominent place Situado en el distinguido sector de Granada a pocos pasos de la zona mejor Zona Gastronómica de Cali, Boutiques de los más reconocidos diseñadores de Colombia, con los mejores Sitios de Rumba y Diversión."
+        },
+        "ourIncludedServices": {
+            "title": "Included Services",
+            "item1": "Atención personalizada a nuestros Huéspedes",
+            "item2": "Rooms Habitaciones completamente nuevas y confortables",
+            "item3": "Wifi",
+            "item4": "Netflix",
+            "item5": "National Calls without cost",
+            "item6": "Places of interest Programas de Diversión - Sitios de Interés",
+            "item7": "Reception and security 24 hours"
+        },
+        "aditionalServices": {
+            "title": "Aditional Services",
+            "item1": "Bar and restaurant",
+            "item2": "Laundry Service"
+        }
+    },
+    "rooms": {
+        "title": "Find your perfect room!",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
+        "totalBeds": "Number of beds: 2 double beds.",
+        "totalPeople": "Number of people: 4.",
+        "services": {
+            "servicesTitle": "Services and facilities:",
+            "item1": "• Breakfast",
+            "item2": "• Air Conditioner",
+            "item3": "• Wifi",
+            "item4": "• Smart TV with Netflix",
+            "item5": "• Private bath",
+            "item6": "• Ilimitaded National Calls",
+            "price": "From $90.000"
+        }
+    },
+    "footer": {
+        "ubication": "Location:",
+        "phone": "Contact:",
+        "title":"YOUR BEST PLACE IN CALI"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "name": "Name",
+        "email": "Email",
+        "totalPeople": "Total people",
+        "reserveDate": "Reserve Date",
+        "sinceDate": "Since",
+        "untilDate": "Until",
+        "comments": "Comments",
+        "send": "Send"
+    }
+}

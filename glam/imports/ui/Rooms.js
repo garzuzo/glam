@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-
+import i18n from 'meteor/universe:i18n';
+const T = i18n.createComponent();
 // App component - represents the whole app
 export default class Rooms extends Component {
 
@@ -53,7 +54,7 @@ export default class Rooms extends Component {
                     </Carousel.Item>
                 </Carousel>
 
-                <h1>¡Encuentra la habitación que necesitas!</h1>
+                <h1><T>Common.rooms.title</T></h1>
 
 
 
@@ -64,98 +65,97 @@ export default class Rooms extends Component {
                         </div>
 
                         <div className="col-sm">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.</p>
+                            <p><T>Common.rooms.description</T></p>
                         </div>
 
                         <div className="col-sm">
-                            <p>  Número de Camas:
-                                2 Matrimoniales</p>
-                            <p>Número de Personas: 4</p>
+                            <p><T>Common.rooms.totalBeds</T></p>
+                            <p><T>Common.rooms.totalPeople</T></p>
 
                             <ul>
-                                <h5>Servicios y Comodidades:</h5>
+                                <h5><T>Common.rooms.services.servicesTitle</T></h5>
                                 <li>
-                                    •	Desayuno P.A.M
+                                    <T>Common.rooms.services.item1</T>
 
 
-                            </li>
+                                </li>
                                 <li>
-                                    •	Aire Acondicionado (A.A.)
+                                    <T>Common.rooms.services.item2</T>
 
-</li>
+                                </li>
                                 <li>
-                                    •	Wifi – Ilimitado
+                                    <T>Common.rooms.services.item3</T>
 
-</li>
+                                </li>
                                 <li>
-                                    •	Smart TV con Netflix
+                                    <T>Common.rooms.services.item4</T>
 
-</li>
+                                </li>
                                 <li>
-                                    •	Baño Privado
+                                    <T>Common.rooms.services.item5</T>
 
-</li>
+                                </li>
                                 <li>
-                                    •	Llamadas Nacionales Ilimitadas
-</li>
+                                    <T>Common.rooms.services.item6</T>
+                                </li>
                             </ul>
-                            <p>Desde $90.000</p>
+                            <p>
+                                <T>Common.rooms.services.price</T>
+
+                            </p>
                         </div>
                     </div>
                 </div>
-          
-
-<hr></hr>
-                <div className="containerRooms">
+                <hr></hr>
+                <div className="containerRooms pb-2" >
                     <div className="row">
                         <div className="col-sm">
-                            <img className="img-fluid" style={styleRoom} src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                            <img className="img-fluid" style={styleRoom} src="https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940" />
                         </div>
 
                         <div className="col-sm">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.</p>
+                            <p><T>Common.rooms.description</T></p>
                         </div>
 
                         <div className="col-sm">
-
-                            <p>  Número de Camas:
-                                2 Matrimoniales</p>
-                            <p>Número de Personas: 4</p>
+                            <p><T>Common.rooms.totalBeds</T></p>
+                            <p><T>Common.rooms.totalPeople</T></p>
 
                             <ul>
-                                <h5>Servicios y Comodidades:</h5>
+                                <h5><T>Common.rooms.services.servicesTitle</T></h5>
                                 <li>
-                                    •	Desayuno P.A.M
+                                    <T>Common.rooms.services.item1</T>
 
 
-                            </li>
+                                </li>
                                 <li>
-                                    •	Aire Acondicionado (A.A.)
+                                    <T>Common.rooms.services.item2</T>
 
-</li>
+                                </li>
                                 <li>
-                                    •	Wifi – Ilimitado
+                                    <T>Common.rooms.services.item3</T>
 
-</li>
+                                </li>
                                 <li>
-                                    •	Smart TV con Netflix
+                                    <T>Common.rooms.services.item4</T>
 
-</li>
+                                </li>
                                 <li>
-                                    •	Baño Privado
+                                    <T>Common.rooms.services.item5</T>
 
-</li>
+                                </li>
                                 <li>
-                                    •	Llamadas Nacionales Ilimitadas
-</li>
+                                    <T>Common.rooms.services.item6</T>
+                                </li>
                             </ul>
-                            <p>Desde $90.000</p>
+                            <p>
+                                <T>Common.rooms.services.price</T>
+
+                            </p>
                         </div>
                     </div>
                 </div>
-
-
-
+                <hr></hr>
 
             </div>
         );

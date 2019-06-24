@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import i18n from 'meteor/universe:i18n';
+const T = i18n.createComponent();
 
 // App component - represents the whole app
 export default class About extends Component {
@@ -10,16 +11,17 @@ export default class About extends Component {
 
         return (
             <div className="containerAbout" id="AboutUs" >
-                <h1>Sobre nosotros</h1>
+                <h1><T>Common.about.title</T></h1>
 
 
                 <div className="row">
                     <div className="col-sm">
 
-                        <p>Si estás pensando en Confort, Economía y Diversión, ¡Hotel GLAM es tu mejor opción!
+                        <p>
+                        <T>Common.about.intro.firstParagraph</T>
                         </p>
                         <p>
-                        Situado en el distinguido sector de Granada a pocos pasos de la zona mejor Zona Gastronómica de Cali, Boutiques de los más reconocidos diseñadores de Colombia, con los mejores Sitios de Rumba y Diversión
+                        <T>Common.about.intro.secondParagraph</T>
 </p>
 
                     </div>
@@ -27,36 +29,38 @@ export default class About extends Component {
                     <div className="col-sm">
 
                         <ul > 
-                        <h5>Nuestros Servicios Incluidos</h5>
+                        <h5>
+                        <T>Common.about.ourIncludedServices.title</T>
+                        </h5>
                             <li>
                                 <img className="pr-1" src="./icons/waiter.png"/>
-                            Atención personalizada a nuestros Huéspedes
+                                <T>Common.about.ourIncludedServices.item1</T>
                             </li>
 
                             <li>
                             <img className="pr-1" src="./icons/bed.png"/>
-                            Habitaciones completamente nuevas y confortables
+                            <T>Common.about.ourIncludedServices.item2</T>
                     
                             </li>
                             <li>
                             <img className="pr-1" src="./icons/wifi.png"/>
-                            Internet Wifi Ilimitado – Banda Ancha
+                            <T>Common.about.ourIncludedServices.item3</T>
                             </li>
                             <li>
                             <img className="pr-1" src="./icons/netflix.png"/>
-                            Netflix para tu Diversión las 24 Horas
+                            <T>Common.about.ourIncludedServices.item4</T>
                             </li>
                             <li>
                             <img className="pr-1" src="./icons/call.png"/>
-                            Llamadas Nacionales Ilimitadas – Sin Costo
+                            <T>Common.about.ourIncludedServices.item5</T>
                             </li>
                             <li> 
                             <img className="pr-1" src="./icons/todo.png"/>
-                                Programas de Diversión - Sitios de Interés 
+                            <T>Common.about.ourIncludedServices.item6</T>
                             </li>
                             <li>
                             <img className="pr-1" src="./icons/valet.png"/>
-                            Recepción y Seguridad las 24 Horas
+                            <T>Common.about.ourIncludedServices.item7</T>
                             </li>
                         </ul>
                       
@@ -66,14 +70,16 @@ export default class About extends Component {
                     <div className="col-sm">
                    
                     <ul>
-                    <h5>Servicios Adicionales</h5>
+                    <h5>
+                    <T>Common.about.aditionalServices.title</T>
+                    </h5>
                         <li>
                         <img className="pr-1" src="./icons/bar.png"/>
-                        Restaurante y Bar dentro del Hotel
+                        <T>Common.about.aditionalServices.item1</T>
                         </li>
                         <li>
                         <img className="pr-1" src="./icons/washingmachine.png"/>
-                        Servicio de Lavandería
+                        <T>Common.about.aditionalServices.item2</T>
                             </li>
                     </ul>
                    

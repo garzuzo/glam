@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import i18n from 'meteor/universe:i18n';
+const T = i18n.createComponent();
 
 // App component - represents the whole app
 export default class Footer extends Component {
@@ -13,18 +14,18 @@ export default class Footer extends Component {
 
                     <div className="col-sm">
                         <ul>
-                            <h6>Ubicación:</h6>
+                            <h6><T>Common.footer.ubication</T></h6>
                             <li> Calle 13 Norte 8 – 36</li>
                             <li>Barrio Granada  </li>
                             <li>Cali – Colombia</li>
                         </ul>
                     </div>
                     <div className="col-sm">
-                        <h3>TU HOGAR EN LA SUCURSAL DEL CIELO</h3>
+                        <h3><T>Common.footer.title</T></h3>
                     </div>
                     <div className="col-sm">
                         <ul>
-                            <h6>Teléfonos:</h6>
+                            <h6><T>Common.footer.phone</T></h6>
                             <li>(57) 316 – 4829002</li>
                             <li>(57) 393 – 9878</li>
 
