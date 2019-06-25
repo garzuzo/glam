@@ -31,7 +31,7 @@ export default class Contact extends Component {
 
         let subject = this.state.name + " tiene una duda para Glam Hoteles";
 
-        let message = "nombre:" + this.state.name + "\n telefono:" + this.state.phone + "\n Correo:" + this.state.email + "\n Número de personas:" + this.state.totalPeople + "\n Comentarios:" + this.state.message;
+        let message = "nombre:" + this.state.name + "\n telefono:" + this.state.phone + "\n Correo:" + this.state.email + "\n Número de personas:" + this.state.totalPeople + "\n Comentarios:" + this.state.comments;
         if (this.state.showReserve) {
             message += "\nFecha de reserva:" + this.state.startDate + "-" + this.state.endDate;
         }
