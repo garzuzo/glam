@@ -68,7 +68,7 @@ export default class Contact extends Component {
             <div className="container pb-2" id="Contact" >
                 <h1><T>Common.contact.title</T></h1>
 
-                <form>
+                <form onSubmit={this.handleEmail.bind(this)}>
                     <div className="form-group">
                         <label htmlFor="name"><T>Common.contact.name</T></label>
                         <input className="form-control" id="name" name="name" value={this.state.name} onChange={this.handleOnChange.bind(this)} required />

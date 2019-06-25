@@ -41,11 +41,11 @@ class NavbarHome extends Component {
     return (
       <div className="NavbarHome"  >
 
-        <Navbar fixed="top" id="navbarHome" bg="light" expand="lg">
+        <Navbar fixed="top" id="navbarHome" bg="light">
           <Navbar.Brand >
             <img src="/images/glamIcon.png" style={glamIcon}></img></Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+      
+       
             <Nav className="mr-auto">
               <Nav.Link >
                 <Link
@@ -92,7 +92,7 @@ class NavbarHome extends Component {
 
             </Nav>
         
-          </Navbar.Collapse>
+     
           <Nav pullRight>
               <NavDropdown eventKey={5} title={<T>Common.navbar.selectLanguage</T>} id="nav-dropdown" onSelect={this.handleSelect.bind(this)}>
                 <Dropdown.Item eventKey={5.1}><img src="./icons/es.png"/>ES</Dropdown.Item>
