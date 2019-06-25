@@ -54,6 +54,7 @@
     "contact": {
         "title":"Contáctanos",
         "name":"Nombre",
+        "phone":"Teléfono",
         "email":"Correo electrónico",
         "totalPeople":"Número de personas",
         "reserveDate":"Fecha de reserva",

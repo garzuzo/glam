@@ -53,6 +53,7 @@
     "contact": {
         "title": "Contact Us",
         "name": "Name",
+        "phone":"Phone",
         "email": "Email",
         "totalPeople": "Total people",
         "reserveDate": "Reserve Date",
