@@ -13,7 +13,7 @@ export default class Contact extends Component {
         this.state = {
             startDate: new Date(),
             endDate: new Date(),
-        
+
             showReserve: false,
             name: "",
             phone: "",
@@ -30,8 +30,11 @@ export default class Contact extends Component {
     handleEmail() {
 
         let subject = this.state.name + " tiene una duda para Glam Hoteles";
-        let message = "nombre:" + this.state.name + "\n telefono:" + this.state.phone + "\n correo:" + this.state.email + "\n número de personas:" + totalPeople + "Fecha de reserva:" + this.state.startDate + "-" + this.state.endDate + "\n Comentarios:" + this.state.message;
 
+        let message = "nombre:" + this.state.name + "\n telefono:" + this.state.phone + "\n Correo:" + this.state.email + "\n Número de personas:" + this.state.totalPeople + "\n Comentarios:" + this.state.message;
+        if (this.state.showReserve) {
+            message += "\nFecha de reserva:" + this.state.startDate + "-" + this.state.endDate;
+        }
         Meteor.call('sendEmail', "garzuxo@gmail.com", this.state.email, subject, message);
     }
     handleReserve() {
@@ -56,7 +59,7 @@ export default class Contact extends Component {
             endDate: endDate
         });
     }
-   
+
 
 
     render() {
@@ -105,7 +108,7 @@ export default class Contact extends Component {
                     <br></br>  <br></br>
                     <div className="form-group">
                         <label htmlFor="comments"><T>Common.contact.comments</T></label>
-                        <textarea className="form-control" id="comments" rows="3" name="comments" value={this.state.coments} onChange={this.handleOnChange.bind(this)} ></textarea>
+                        <textarea className="form-control" id="comments" rows="3" name="comments" value={this.state.comments} onChange={this.handleOnChange.bind(this)} ></textarea>
                     </div>
                     <button type="submit" className="btn btn-success"><T>Common.contact.send</T></button>
                 </form>
