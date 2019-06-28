@@ -10,7 +10,7 @@ export default class About extends Component {
 
 
         return (
-            <div className="containerAbout" id="AboutUs" >
+            <div className="container About" id="AboutUs" >
                 <h1><T>Common.about.title</T></h1>
 
 

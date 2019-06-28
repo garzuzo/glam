@@ -4,8 +4,9 @@
     "navbar": {
         "aboutUs": "About Us",
         "rooms": "Rooms",
+        "events":"Events",
         "contact": "Contact",
-        "selectLanguage": "Select Language"
+        "selectLanguage": "Language"
     },
     "about": {
         "title": "About Us",

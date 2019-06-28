@@ -4,8 +4,9 @@
     "navbar": {
         "aboutUs": "Sobre nosotros",
         "rooms": "Habitaciones",
+        "events":"Eventos",
         "contact": "Contáctanos",
-        "selectLanguage": "Seleccionar Lenguaje"
+        "selectLanguage": "Lenguaje"
     },
     "about": {
         "title":"Sobre nosotros",

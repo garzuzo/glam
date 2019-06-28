@@ -2,18 +2,18 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
  
 // App component - represents the whole app
-export default class CarouselHome extends Component {
+export default class Events extends Component {
   
  
   render() {
-    let carouselSize={width:"700px"}
+    let carouselSize={height:"100vh"} 
     return (
-      <div className="CarouselHome" id="CarouselHome" >
-        <Carousel className="d-block w-100">
+      <div className="CarouselHome" id="Events" >
+        <Carousel className="d-block" >
   <Carousel.Item>
     <img
       className="d-block w-100 carouselImg"
-      src="https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
+      src="https://images.pexels.com/photos/787961/pexels-photo-787961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -24,7 +24,7 @@ export default class CarouselHome extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100 carouselImg"
-      src="https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
+      src="https://images.pexels.com/photos/1260310/pexels-photo-1260310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
       alt="Third slide"
     />
 
@@ -36,7 +36,7 @@ export default class CarouselHome extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100 carouselImg"
-      src="https://images.pexels.com/photos/1531672/pexels-photo-1531672.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
+      src="https://images.pexels.com/photos/1574650/pexels-photo-1574650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
       alt="Third slide"
     />
 

@@ -5,6 +5,7 @@ import NavbarHome from './NavbarHome.js';
  import Rooms from './Rooms';
  import Contact from './Contact';
  import Footer from './Footer';
+ import Events from './Events';
 // App component - represents the whole app
 export default class App extends Component {
   
@@ -17,6 +18,7 @@ export default class App extends Component {
 <CarouselHome></CarouselHome>
  <About></About>
  <Rooms></Rooms>
+ <Events></Events>
  <Contact></Contact>
 
  <Footer></Footer>

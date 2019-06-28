@@ -19,7 +19,7 @@ export default class Rooms extends Component {
                 <Carousel className="d-block w-100" style={styleRoom}>
                     <Carousel.Item>
                         <img
-                            className="d-block w-100"
+                            className="d-block w-100 carouselImg"
                             src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
                             alt="First slide"
                         />
@@ -30,7 +30,7 @@ export default class Rooms extends Component {
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                            className="d-block w-100"
+                            className="d-block w-100 carouselImg"
                             src="https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
                             alt="Third slide"
                         />
@@ -42,7 +42,7 @@ export default class Rooms extends Component {
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                            className="d-block w-100"
+                            className="d-block w-100 carouselImg"
                             src="https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
                             alt="Third slide"
                         />

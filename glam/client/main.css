@@ -13,10 +13,8 @@ body {
  
 }
 
-#appContainer{
-  /**
-  background-color: #92B6A7;
-  */  
+.carouselImg{
+  height:100vh;
 }
 
 #appContainer{
@@ -32,14 +30,16 @@ body {
 
 .nav-link{
   text-align: center;
+  font-size: 20px;
   display: flex;
 }
 ul{
   list-style: none;
   }
 
-#navbarHome{
   
+#navbarHome{
+  opacity:0.9;
   position: fixed;
   top: 0;
   left: 0;
