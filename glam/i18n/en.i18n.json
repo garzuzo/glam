@@ -30,22 +30,123 @@
             "item2": "Laundry Service"
         }
     },
-    "rooms": {
-        "title": "Find your perfect room!",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
-        "totalBeds": "Number of beds: 2 double beds.",
-        "totalPeople": "Number of people: 4.",
-        "services": {
-            "servicesTitle": "Services and facilities:",
-            "item1": "• Breakfast",
-            "item2": "• Air Conditioner",
-            "item3": "• Wifi",
-            "item4": "• Smart TV with Netflix",
-            "item5": "• Private bath",
-            "item6": "• Ilimitaded National Calls",
-            "price": "From $90.000"
-        }
-    },
+    "carouselAboutUs":{
+        "title1":"Here we have title 1",
+        "subtitle1":"Here we have subtitle 1",
+        "title2":"Continue writing...",
+        "subtitle2":"",
+        "title3":"",
+        "subtitle3":""
+        
+            },
+            "carouselRooms":{
+                "title1":"",
+                "subtitle1":"",
+                "title2":"",
+                "subtitle2":"",
+                "title3":"",
+                "subtitle3":""
+                
+            },
+            "carouselEvents":{
+                "title1":"",
+                "subtitle1":"",
+                "title2":"",
+                "subtitle2":"",
+                "title3":"",
+                "subtitle3":""
+                
+            },
+            "rooms": {
+                "title":"Find your perfect room!",
+            "room1":{
+                "title":"Private room, 2 double beds ",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
+                "totalBeds":"Number of beds: 2 Camas dobles",
+                "totalPeople":"Number of people: 4.",
+                "services":{
+                "servicesTitle":"Services and facilities:",
+                "item1":"• Breakfast",
+                "item2":"• Air Conditioner",
+                "item3":"• Wifi",
+                "item4":"• Smart TV with Netflix",
+                "item5":"• Private bath",
+                "item6":"• Ilimitaded National Calls",
+                "price":"From $90.000"
+                }
+            },
+        
+            "room2":{
+                "title":"Habitación Privada, Cama Matrimonial",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
+                "totalBeds":"Number of beds: 2 Camas dobles",
+                "totalPeople":"Number of people: 4.",
+                "services":{
+                "servicesTitle":"Services and facilities:",
+                "item1":"• Breakfast",
+                "item2":"• Air Conditioner",
+                "item3":"• Wifi",
+                "item4":"• Smart TV with Netflix",
+                "item5":"• Private bath",
+                "item6":"• Ilimitaded National Calls",
+                "price":"From $90.000"
+                }
+            },
+        
+            "room3":{
+                "title":"Habitación Privada, 2 Camas sencillas",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
+                "totalBeds":"Number of beds: 2 Camas dobles",
+                "totalPeople":"Number of people: 4.",
+                "services":{
+                "servicesTitle":"Services and facilities:",
+                "item1":"• Breakfast",
+                "item2":"• Air Conditioner",
+                "item3":"• Wifi",
+                "item4":"• Smart TV with Netflix",
+                "item5":"• Private bath",
+                "item6":"• Ilimitaded National Calls",
+                "price":"From $90.000"
+                }
+            },
+        
+            "room4":{
+                "title":"Habitación Múltiple, 3 Camas sencillas",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
+                "totalBeds":"Number of beds: 2 Camas dobles",
+                "totalPeople":"Number of people: 4.",
+                "services":{
+                "servicesTitle":"Services and facilities:",
+                "item1":"• Breakfast",
+                "item2":"• Air Conditioner",
+                "item3":"• Wifi",
+                "item4":"• Smart TV with Netflix",
+                "item5":"• Private bath",
+                "item6":"• Ilimitaded National Calls",
+                "price":"From $90.000"
+                }
+            },
+        
+            "room5":{
+                "title":"Habitación Múltiple, 4 Camas sencillas",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
+                "totalBeds":"Number of beds: 2 Camas dobles",
+                "totalPeople":"Number of people: 4.",
+                "services":{
+                "servicesTitle":"Services and facilities:",
+                "item1":"• Breakfast",
+                "item2":"• Air Conditioner",
+                "item3":"• Wifi",
+                "item4":"• Smart TV with Netflix",
+                "item5":"• Private bath",
+                "item6":"• Ilimitaded National Calls",
+                "price":"From $90.000"
+                }
+            }
+            
+        
+              
+            },
     "footer": {
         "ubication": "Location:",
         "phone": "Contact:",

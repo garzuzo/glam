@@ -30,10 +30,39 @@
             "item2": "Servicio de Lavandería"
         }
     },
+    "carouselAboutUs":{
+"title1":"Aqui va el titulo 1",
+"subtitle1":"Aqui va el subtitulo 1",
+"title2":"Aqui va el titulo 2",
+"subtitle2":"Aqui va el subtitulo 2",
+"title3":"Aqui va el subtitulo 3",
+"subtitle3":"Aqui va el subtitulo 3 y asi con cada uno de los de abajo"
+
+    },
+    "carouselRooms":{
+        "title1":"",
+        "subtitle1":"",
+        "title2":"",
+        "subtitle2":"",
+        "title3":"",
+        "subtitle3":""
+        
+    },
+    "carouselEvents":{
+        "title1":"",
+        "subtitle1":"",
+        "title2":"",
+        "subtitle2":"",
+        "title3":"",
+        "subtitle3":""
+        
+    },
     "rooms": {
         "title":"¡Encuentra la habitación que necesitas!",
+    "room1":{
+        "title":"Habitación Privada, 2 Camas dobles ",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
-        "totalBeds":"Número de Camas: 2 Matrimoniales.",
+        "totalBeds":"Número de Camas: 2 Camas dobles",
         "totalPeople":"Número de Personas: 4.",
         "services":{
         "servicesTitle":"Servicios y Comodidades:",
@@ -45,6 +74,77 @@
         "item6":"• Llamadas Nacionales Ilimitadas",
         "price":"Desde $90.000"
         }
+    },
+
+    "room2":{
+        "title":"Habitación Privada, Cama Matrimonial",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
+        "totalBeds":"Número de Camas: 1 Matrimonial.",
+        "totalPeople":"Número de Personas: 4.",
+        "services":{
+        "servicesTitle":"Servicios y Comodidades:",
+        "item1":"• Desayuno P.A.M",
+        "item2":"• Aire Acondicionado (A.A.)",
+        "item3":"• Wifi – Ilimitado",
+        "item4":"• Smart TV con Netflix",
+        "item5":"• Baño Privado",
+        "item6":"• Llamadas Nacionales Ilimitadas",
+        "price":"Desde $90.000"
+        }
+    },
+
+    "room3":{
+        "title":"Habitación Privada, 2 Camas sencillas",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
+        "totalBeds":"Número de Camas: 2 Camas sencillas",
+        "totalPeople":"Número de Personas: 4.",
+        "services":{
+        "servicesTitle":"Servicios y Comodidades:",
+        "item1":"• Desayuno P.A.M",
+        "item2":"• Aire Acondicionado (A.A.)",
+        "item3":"• Wifi – Ilimitado",
+        "item4":"• Smart TV con Netflix",
+        "item5":"• Baño Privado",
+        "item6":"• Llamadas Nacionales Ilimitadas",
+        "price":"Desde $90.000"
+        }
+    },
+
+    "room4":{
+        "title":"Habitación Múltiple, 3 Camas sencillas",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
+        "totalBeds":"Número de Camas: 3 Camas sencillas",
+        "totalPeople":"Número de Personas: 4.",
+        "services":{
+        "servicesTitle":"Servicios y Comodidades:",
+        "item1":"• Desayuno P.A.M",
+        "item2":"• Aire Acondicionado (A.A.)",
+        "item3":"• Wifi – Ilimitado",
+        "item4":"• Smart TV con Netflix",
+        "item5":"• Baño Privado",
+        "item6":"• Llamadas Nacionales Ilimitadas",
+        "price":"Desde $90.000"
+        }
+    },
+
+    "room5":{
+        "title":"Habitación Múltiple, 4 Camas sencillas",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
+        "totalBeds":"Número de Camas: 4 Camas sencillas",
+        "totalPeople":"Número de Personas: 4.",
+        "services":{
+        "servicesTitle":"Servicios y Comodidades:",
+        "item1":"• Desayuno P.A.M",
+        "item2":"• Aire Acondicionado (A.A.)",
+        "item3":"• Wifi – Ilimitado",
+        "item4":"• Smart TV con Netflix",
+        "item5":"• Baño Privado",
+        "item6":"• Llamadas Nacionales Ilimitadas",
+        "price":"Desde $90.000"
+        }
+    }
+    
+
       
     },
     "footer": {

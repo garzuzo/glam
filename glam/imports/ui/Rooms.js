@@ -8,15 +8,19 @@ export default class Rooms extends Component {
 
     render() {
 
-        let styleRoom = {
+        let styleCarousel = {
 
-            width: "700px"
+            width: "500px"
+        }
+        let styleRoom = {
+            height: "317px",
+            width: "353px"
         }
 
         return (
             <div className="Rooms " id="Rooms">
 
-                <Carousel className="d-block w-100" style={styleRoom}>
+                <Carousel className="d-block w-100" style={styleCarousel}>
                     <Carousel.Item>
                         <img
                             className="d-block w-100 carouselImg"
@@ -54,110 +58,287 @@ export default class Rooms extends Component {
                     </Carousel.Item>
                 </Carousel>
 
-                <h1><T>Common.rooms.title</T></h1>
+                <div className="container" >
+                    <h1><T>Common.rooms.title</T></h1>
+
+                    <br></br>
+
+                    <div className="containerRooms pb-2" >
+                        <div className="row">
+
+                            <div className="col-sm">
+                                <h5><T>Common.rooms.room1.title</T></h5>
+                                <img className="img-fluid" style={styleRoom} src="./images/rooms/cat.jpg" />
+                            </div>
+
+                            <div className="col-sm">
+                                <p><T>Common.rooms.room1.description</T></p>
+                            </div>
+
+                            <div className="col-sm">
+                                <p><T>Common.rooms.room1.totalBeds</T></p>
+                                <p><T>Common.rooms.room1.totalPeople</T></p>
+
+                                <ul>
+                                    <h5><T>Common.rooms.room1.services.servicesTitle</T></h5>
+                                    <li>
+                                        <T>Common.rooms.room1.services.item1</T>
 
 
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room1.services.item2</T>
 
-                <div className="containerRooms pb-2" >
-                    <div className="row">
-                        <div className="col-sm">
-                            <img className="img-fluid" style={styleRoom} src="https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940" />
-                        </div>
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room1.services.item3</T>
 
-                        <div className="col-sm">
-                            <p><T>Common.rooms.description</T></p>
-                        </div>
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room1.services.item4</T>
 
-                        <div className="col-sm">
-                            <p><T>Common.rooms.totalBeds</T></p>
-                            <p><T>Common.rooms.totalPeople</T></p>
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room1.services.item5</T>
 
-                            <ul>
-                                <h5><T>Common.rooms.services.servicesTitle</T></h5>
-                                <li>
-                                    <T>Common.rooms.services.item1</T>
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room1.services.item6</T>
+                                    </li>
+                                </ul>
+                                <p>
+                                    <T>Common.rooms.room1.services.price</T>
 
-
-                                </li>
-                                <li>
-                                    <T>Common.rooms.services.item2</T>
-
-                                </li>
-                                <li>
-                                    <T>Common.rooms.services.item3</T>
-
-                                </li>
-                                <li>
-                                    <T>Common.rooms.services.item4</T>
-
-                                </li>
-                                <li>
-                                    <T>Common.rooms.services.item5</T>
-
-                                </li>
-                                <li>
-                                    <T>Common.rooms.services.item6</T>
-                                </li>
-                            </ul>
-                            <p>
-                                <T>Common.rooms.services.price</T>
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <hr></hr>
-                <div className="containerRooms pb-2" >
-                    <div className="row">
-                        <div className="col-sm">
-                            <img className="img-fluid" style={styleRoom} src="https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940" />
-                        </div>
-
-                        <div className="col-sm">
-                            <p><T>Common.rooms.description</T></p>
-                        </div>
-
-                        <div className="col-sm">
-                            <p><T>Common.rooms.totalBeds</T></p>
-                            <p><T>Common.rooms.totalPeople</T></p>
-
-                            <ul>
-                                <h5><T>Common.rooms.services.servicesTitle</T></h5>
-                                <li>
-                                    <T>Common.rooms.services.item1</T>
-
-
-                                </li>
-                                <li>
-                                    <T>Common.rooms.services.item2</T>
-
-                                </li>
-                                <li>
-                                    <T>Common.rooms.services.item3</T>
-
-                                </li>
-                                <li>
-                                    <T>Common.rooms.services.item4</T>
-
-                                </li>
-                                <li>
-                                    <T>Common.rooms.services.item5</T>
-
-                                </li>
-                                <li>
-                                    <T>Common.rooms.services.item6</T>
-                                </li>
-                            </ul>
-                            <p>
-                                <T>Common.rooms.services.price</T>
-
-                            </p>
+                                </p>
+                            </div>
                         </div>
                     </div>
+                    <hr></hr>
+                    <div className="containerRooms pb-2" >
+                        <div className="row">
+                            <div className="col-sm">
+                                <h5><T>Common.rooms.room2.title</T></h5>
+                                <img className="img-fluid" style={styleRoom} src="./images/rooms/loma.jpg" />
+                            </div>
+
+                            <div className="col-sm">
+                                <p><T>Common.rooms.room2.description</T></p>
+                            </div>
+
+                            <div className="col-sm">
+                                <p><T>Common.rooms.room2.totalBeds</T></p>
+                                <p><T>Common.rooms.room2.totalPeople</T></p>
+
+                                <ul>
+                                    <h5><T>Common.rooms.room2.services.servicesTitle</T></h5>
+                                    <li>
+                                        <T>Common.rooms.room2.services.item1</T>
+
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room2.services.item2</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room2.services.item3</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room2.services.item4</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room2.services.item5</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room2.services.item6</T>
+                                    </li>
+                                </ul>
+                                <p>
+                                    <T>Common.rooms.room2.services.price</T>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr></hr>
+
+
+
+                    <div className="containerRooms pb-2" >
+                        <div className="row">
+                            <div className="col-sm">
+                                <h5><T>Common.rooms.room3.title</T></h5>
+                                <img className="img-fluid" style={styleRoom} src="./images/rooms/belalcazar.jpg" />
+                            </div>
+
+
+                            <div className="col-sm">
+                                <p><T>Common.rooms.room3.description</T></p>
+                            </div>
+
+                            <div className="col-sm">
+                                <p><T>Common.rooms.room3.totalBeds</T></p>
+                                <p><T>Common.rooms.room3.totalPeople</T></p>
+
+                                <ul>
+                                    <h5><T>Common.rooms.room3.services.servicesTitle</T></h5>
+                                    <li>
+                                        <T>Common.rooms.room3.services.item1</T>
+
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room3.services.item2</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room3.services.item3</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room3.services.item4</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room3.services.item5</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room3.services.item6</T>
+                                    </li>
+                                </ul>
+                                <p>
+                                    <T>Common.rooms.room3.services.price</T>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr></hr>
+
+
+
+
+                    <div className="containerRooms pb-2" >
+                        <div className="row">
+                            <div className="col-sm">
+
+                                <h5><T>Common.rooms.room4.title</T></h5>
+                                <img className="img-fluid" style={styleRoom} src="./images/rooms/cabinblue.jpg" />
+                            </div>
+
+                            <div className="col-sm">
+                                <p><T>Common.rooms.room4.description</T></p>
+                            </div>
+
+                            <div className="col-sm">
+                                <p><T>Common.rooms.room4.totalBeds</T></p>
+                                <p><T>Common.rooms.room4.totalPeople</T></p>
+
+                                <ul>
+                                    <h5><T>Common.rooms.room4.services.servicesTitle</T></h5>
+                                    <li>
+                                        <T>Common.rooms.room4.services.item1</T>
+
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room4.services.item2</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room4.services.item3</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room4.services.item4</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room4.services.item5</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room4.services.item6</T>
+                                    </li>
+                                </ul>
+                                <p>
+                                    <T>Common.rooms.room4.services.price</T>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr></hr>
+
+
+
+                    <div className="containerRooms pb-2" >
+                        <div className="row">
+                            <div className="col-sm">
+                                <h5><T>Common.rooms.room5.title</T></h5>
+                                <img className="img-fluid" style={styleRoom} src="./images/rooms/cabingreen.jpg" />
+                            </div>
+
+
+                            <div className="col-sm">
+                                <p><T>Common.rooms.room5.description</T></p>
+                            </div>
+
+                            <div className="col-sm">
+                                <p><T>Common.rooms.room5.totalBeds</T></p>
+                                <p><T>Common.rooms.room5.totalPeople</T></p>
+
+                                <ul>
+                                    <h5><T>Common.rooms.room5.services.servicesTitle</T></h5>
+                                    <li>
+                                        <T>Common.rooms.room5.services.item1</T>
+
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room5.services.item2</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room5.services.item3</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room5.services.item4</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room5.services.item5</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room5.services.item6</T>
+                                    </li>
+                                </ul>
+                                <p>
+                                    <T>Common.rooms.room5.services.price</T>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr></hr>
+
+
+
+
                 </div>
                 <hr></hr>
 
-            </div>
+
+
+
+
+            </div >
         );
     }
 }

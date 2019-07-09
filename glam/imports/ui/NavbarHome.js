@@ -36,7 +36,7 @@ class NavbarHome extends Component {
   }
   render() {
 
-    let glamIcon = { width: "120px" }
+    let glamIcon = { width: "100px" }
     let navbarStyle = {}// {position:"fixed",top:0, zIndex:5,color:"#FFFFFF" }
     return (
       <div className="NavbarHome"  >
