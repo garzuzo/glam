@@ -2,11 +2,11 @@
     "_locale": "en-US",
     "_namespace": "Common",
     "navbar": {
-        "aboutUs": "Sobre nosotros",
-        "rooms": "Habitaciones",
-        "events": "Eventos",
-        "contact": "Contáctanos",
-        "selectLanguage": "Lenguaje"
+        "aboutUs": "About Us",
+        "rooms": "Rooms",
+        "events": "Events",
+        "contact": "Contact",
+        "selectLanguage": "Language"
     },
     "about": {
         "title": "Sobre nosotros",

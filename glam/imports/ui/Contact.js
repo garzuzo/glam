@@ -35,7 +35,7 @@ export default class Contact extends Component {
         if (this.state.showReserve) {
             message += "\nFecha de reserva:" + this.state.startDate + "-" + this.state.endDate;
         }
-        Meteor.call('sendEmail', "garzuxo@gmail.com", this.state.email, subject, message);
+        Meteor.call('sendEmail', "contacto@glamhoteles.com", this.state.email, subject, message);
     }
     handleReserve() {
 

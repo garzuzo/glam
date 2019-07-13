@@ -28,7 +28,7 @@ export default class Footer extends Component {
                                 <h6><T>Common.footer.phone</T></h6>
                                 <li>(57) 316 – 4829002</li>
                                 <li>(57) 393 – 9878</li>
-
+                                <li>contacto@glamhoteles.com</li>
                             </ul>
                         </div>
 
