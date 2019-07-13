@@ -15,7 +15,7 @@ export default class About extends Component {
 
 
                 <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-lg-3">
 
                         <p>
                         <T>Common.about.intro.firstParagraph</T>
@@ -26,7 +26,7 @@ export default class About extends Component {
 
                     </div>
 
-                    <div className="col-sm-6">
+                    <div className="col-lg-6">
 
                         <ul > 
                         <h5>
@@ -67,7 +67,7 @@ export default class About extends Component {
 
                     </div>
 
-                    <div className="col-sm-3">
+                    <div className="col-lg-3">
                    
                     <ul>
                     <h5>

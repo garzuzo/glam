@@ -14,7 +14,8 @@ export default class Rooms extends Component {
         }
         let styleRoom = {
             height: "317px",
-            width: "353px"
+            width: "353px",
+            borderRadius:"10px"
         }
 
         return (
@@ -24,36 +25,36 @@ export default class Rooms extends Component {
                     <Carousel.Item>
                         <img
                             className="d-block w-100 carouselImg"
-                            src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="./images/roomscarousel/catroom.jpg"
                             alt="First slide"
                         />
                         <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3><T>Common.carouselRooms.title1</T></h3>
+                            <p><T>Common.carouselRooms.subtitle1</T></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100 carouselImg"
-                            src="https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="./images/roomscarousel/secondfloor.jpg"
                             alt="Third slide"
                         />
 
                         <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3><T>Common.carouselRooms.title2</T></h3>
+                            <p><T>Common.carouselRooms.subtitle2</T></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100 carouselImg"
-                            src="https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="./images/roomscarousel/thirdfloor.jpg"
                             alt="Third slide"
                         />
 
                         <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3><T>Common.carouselRooms.title3</T></h3>
+                            <p><T>Common.carouselRooms.subtitle3</T></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -66,16 +67,16 @@ export default class Rooms extends Component {
                     <div className="containerRooms pb-2" >
                         <div className="row">
 
-                            <div className="col-sm">
+                            <div className="col-lg-4">
                                 <h5><T>Common.rooms.room1.title</T></h5>
-                                <img className="img-fluid" style={styleRoom} src="./images/rooms/cat.jpg" />
+                                <img className="img-fluid" style={styleRoom} src="./images/rooms/cabingreen.jpg" />
                             </div>
 
-                            <div className="col-sm">
+                            <div className="col-lg-4">
                                 <p><T>Common.rooms.room1.description</T></p>
                             </div>
 
-                            <div className="col-sm">
+                            <div className="col-lg-4">
                                 <p><T>Common.rooms.room1.totalBeds</T></p>
                                 <p><T>Common.rooms.room1.totalPeople</T></p>
 
@@ -94,17 +95,7 @@ export default class Rooms extends Component {
                                         <T>Common.rooms.room1.services.item3</T>
 
                                     </li>
-                                    <li>
-                                        <T>Common.rooms.room1.services.item4</T>
-
-                                    </li>
-                                    <li>
-                                        <T>Common.rooms.room1.services.item5</T>
-
-                                    </li>
-                                    <li>
-                                        <T>Common.rooms.room1.services.item6</T>
-                                    </li>
+                                   
                                 </ul>
                                 <p>
                                     <T>Common.rooms.room1.services.price</T>
@@ -118,7 +109,7 @@ export default class Rooms extends Component {
                         <div className="row">
                             <div className="col-sm">
                                 <h5><T>Common.rooms.room2.title</T></h5>
-                                <img className="img-fluid" style={styleRoom} src="./images/rooms/loma.jpg" />
+                                <img className="img-fluid" style={styleRoom} src="./images/rooms/cabinblue.jpg" />
                             </div>
 
                             <div className="col-sm">
@@ -144,17 +135,7 @@ export default class Rooms extends Component {
                                         <T>Common.rooms.room2.services.item3</T>
 
                                     </li>
-                                    <li>
-                                        <T>Common.rooms.room2.services.item4</T>
-
-                                    </li>
-                                    <li>
-                                        <T>Common.rooms.room2.services.item5</T>
-
-                                    </li>
-                                    <li>
-                                        <T>Common.rooms.room2.services.item6</T>
-                                    </li>
+                                   
                                 </ul>
                                 <p>
                                     <T>Common.rooms.room2.services.price</T>
@@ -171,7 +152,7 @@ export default class Rooms extends Component {
                         <div className="row">
                             <div className="col-sm">
                                 <h5><T>Common.rooms.room3.title</T></h5>
-                                <img className="img-fluid" style={styleRoom} src="./images/rooms/belalcazar.jpg" />
+                                <img className="img-fluid" style={styleRoom} src="./images/rooms/cat.jpg" />
                             </div>
 
 
@@ -206,9 +187,7 @@ export default class Rooms extends Component {
                                         <T>Common.rooms.room3.services.item5</T>
 
                                     </li>
-                                    <li>
-                                        <T>Common.rooms.room3.services.item6</T>
-                                    </li>
+                                    
                                 </ul>
                                 <p>
                                     <T>Common.rooms.room3.services.price</T>
@@ -227,7 +206,7 @@ export default class Rooms extends Component {
                             <div className="col-sm">
 
                                 <h5><T>Common.rooms.room4.title</T></h5>
-                                <img className="img-fluid" style={styleRoom} src="./images/rooms/cabinblue.jpg" />
+                                <img className="img-fluid" style={styleRoom} src="./images/rooms/cristorey.jpg" />
                             </div>
 
                             <div className="col-sm">
@@ -261,9 +240,7 @@ export default class Rooms extends Component {
                                         <T>Common.rooms.room4.services.item5</T>
 
                                     </li>
-                                    <li>
-                                        <T>Common.rooms.room4.services.item6</T>
-                                    </li>
+                                   
                                 </ul>
                                 <p>
                                     <T>Common.rooms.room4.services.price</T>
@@ -280,7 +257,7 @@ export default class Rooms extends Component {
                         <div className="row">
                             <div className="col-sm">
                                 <h5><T>Common.rooms.room5.title</T></h5>
-                                <img className="img-fluid" style={styleRoom} src="./images/rooms/cabingreen.jpg" />
+                                <img className="img-fluid" style={styleRoom} src="./images/rooms/belalcazar.jpg" />
                             </div>
 
 
@@ -315,9 +292,7 @@ export default class Rooms extends Component {
                                         <T>Common.rooms.room5.services.item5</T>
 
                                     </li>
-                                    <li>
-                                        <T>Common.rooms.room5.services.item6</T>
-                                    </li>
+                                    
                                 </ul>
                                 <p>
                                     <T>Common.rooms.room5.services.price</T>

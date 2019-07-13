@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
- 
+import i18n from 'meteor/universe:i18n';
+const T = i18n.createComponent();
 // App component - represents the whole app
 export default class CarouselHome extends Component {
   
@@ -13,36 +14,36 @@ export default class CarouselHome extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100 carouselImg"
-      src="./images/carousel/stairs.jpg"
+      src="./images/carousel/livingroom.jpg"
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    <h3><T>Common.carouselAboutUs.title1</T></h3>
+      <p><T>Common.carouselAboutUs.subtitle1</T></p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100 carouselImg"
-      src="./images/carousel/hall.jpg"
+      src="./images/carousel/livingroom1.jpg"
       alt="Third slide"
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <h3><T>Common.carouselAboutUs.title2</T></h3>
+      <p><T>Common.carouselAboutUs.subtitle2</T></p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100 carouselImg"
-      src="./images/carousel/entrancenight.jpg"
+      src="./images/carousel/viewtrescruces.jpg"
       alt="Third slide"
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    <h3><T>Common.carouselAboutUs.title3</T></h3>
+      <p><T>Common.carouselAboutUs.subtitle3</T></p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

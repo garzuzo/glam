@@ -2,166 +2,147 @@
     "_locale": "en-US",
     "_namespace": "Common",
     "navbar": {
-        "aboutUs": "About Us",
-        "rooms": "Rooms",
-        "events":"Events",
-        "contact": "Contact",
-        "selectLanguage": "Language"
+        "aboutUs": "Sobre nosotros",
+        "rooms": "Habitaciones",
+        "events": "Eventos",
+        "contact": "Contáctanos",
+        "selectLanguage": "Lenguaje"
     },
     "about": {
-        "title": "About Us",
+        "title": "Sobre nosotros",
         "intro": {
-            "firstParagraph": "If you are thinking in confort, Economía y Diversión, ¡Hotel GLAM es tu mejor opción!",
-            "secondParagraph": "Glam is situated in a really prominent place Situado en el distinguido sector de Granada a pocos pasos de la zona mejor Zona Gastronómica de Cali, Boutiques de los más reconocidos diseñadores de Colombia, con los mejores Sitios de Rumba y Diversión."
+            "firstParagraph": "Si estás pensando en Confort, Economía y Diversión, ¡Hotel GLAM es tu mejor opción!",
+            "secondParagraph": "Situado en el distinguido sector de Granada a pocos pasos de la zona mejor Zona Gastronómica de Cali, Boutiques de los más reconocidos diseñadores de Colombia, con los mejores Sitios de Rumba y Diversión."
         },
         "ourIncludedServices": {
-            "title": "Included Services",
+            "title": "Nuestros Servicios Incluidos",
             "item1": "Atención personalizada a nuestros Huéspedes",
-            "item2": "Rooms Habitaciones completamente nuevas y confortables",
-            "item3": "Wifi",
-            "item4": "Netflix",
-            "item5": "National Calls without cost",
-            "item6": "Places of interest Programas de Diversión - Sitios de Interés",
-            "item7": "Reception and security 24 hours"
+            "item2": "Habitaciones completamente nuevas y confortables",
+            "item3": "Internet Wifi Ilimitado – Banda Ancha",
+            "item4": "Netflix para tu Diversión las 24 Horas",
+            "item5": "Llamadas Nacionales Ilimitadas – Sin Costo",
+            "item6": "Programas de Diversión - Sitios de Interés",
+            "item7": "Recepción y Seguridad las 24 Horas"
         },
         "aditionalServices": {
-            "title": "Aditional Services",
-            "item1": "Bar and restaurant",
-            "item2": "Laundry Service"
+            "title": "Servicios Adicionales",
+            "item1": "Restaurante y Bar dentro del Hotel",
+            "item2": "Servicio de Lavandería"
         }
     },
-    "carouselAboutUs":{
-        "title1":"Here we have title 1",
-        "subtitle1":"Here we have subtitle 1",
-        "title2":"Continue writing...",
-        "subtitle2":"",
-        "title3":"",
-        "subtitle3":""
-        
-            },
-            "carouselRooms":{
-                "title1":"",
-                "subtitle1":"",
-                "title2":"",
-                "subtitle2":"",
-                "title3":"",
-                "subtitle3":""
-                
-            },
-            "carouselEvents":{
-                "title1":"",
-                "subtitle1":"",
-                "title2":"",
-                "subtitle2":"",
-                "title3":"",
-                "subtitle3":""
-                
-            },
-            "rooms": {
-                "title":"Find your perfect room!",
-            "room1":{
-                "title":"Private room, 2 double beds ",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
-                "totalBeds":"Number of beds: 2 Camas dobles",
-                "totalPeople":"Number of people: 4.",
-                "services":{
-                "servicesTitle":"Services and facilities:",
-                "item1":"• Breakfast",
-                "item2":"• Air Conditioner",
-                "item3":"• Wifi",
-                "item4":"• Smart TV with Netflix",
-                "item5":"• Private bath",
-                "item6":"• Ilimitaded National Calls",
-                "price":"From $90.000"
-                }
-            },
-        
-            "room2":{
-                "title":"Habitación Privada, Cama Matrimonial",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
-                "totalBeds":"Number of beds: 2 Camas dobles",
-                "totalPeople":"Number of people: 4.",
-                "services":{
-                "servicesTitle":"Services and facilities:",
-                "item1":"• Breakfast",
-                "item2":"• Air Conditioner",
-                "item3":"• Wifi",
-                "item4":"• Smart TV with Netflix",
-                "item5":"• Private bath",
-                "item6":"• Ilimitaded National Calls",
-                "price":"From $90.000"
-                }
-            },
-        
-            "room3":{
-                "title":"Habitación Privada, 2 Camas sencillas",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
-                "totalBeds":"Number of beds: 2 Camas dobles",
-                "totalPeople":"Number of people: 4.",
-                "services":{
-                "servicesTitle":"Services and facilities:",
-                "item1":"• Breakfast",
-                "item2":"• Air Conditioner",
-                "item3":"• Wifi",
-                "item4":"• Smart TV with Netflix",
-                "item5":"• Private bath",
-                "item6":"• Ilimitaded National Calls",
-                "price":"From $90.000"
-                }
-            },
-        
-            "room4":{
-                "title":"Habitación Múltiple, 3 Camas sencillas",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
-                "totalBeds":"Number of beds: 2 Camas dobles",
-                "totalPeople":"Number of people: 4.",
-                "services":{
-                "servicesTitle":"Services and facilities:",
-                "item1":"• Breakfast",
-                "item2":"• Air Conditioner",
-                "item3":"• Wifi",
-                "item4":"• Smart TV with Netflix",
-                "item5":"• Private bath",
-                "item6":"• Ilimitaded National Calls",
-                "price":"From $90.000"
-                }
-            },
-        
-            "room5":{
-                "title":"Habitación Múltiple, 4 Camas sencillas",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet tortor risus. Vivamus et tellus urna. Curabitur id lorem finibus, gravida urna vitae, elementum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacinia gravida sapien, vitae venenatis nisl faucibus vitae. Vivamus fringilla metus leo, at rhoncus metus euismod nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis nunc nisl, sit amet hendrerit magna congue eget. Sed ullamcorper cursus orci at efficitur. Sed odio lorem, bibendum sed interdum id, aliquam vitae quam. Praesent eget mi porttitor, consectetur felis et, elementum eros.",
-                "totalBeds":"Number of beds: 2 Camas dobles",
-                "totalPeople":"Number of people: 4.",
-                "services":{
-                "servicesTitle":"Services and facilities:",
-                "item1":"• Breakfast",
-                "item2":"• Air Conditioner",
-                "item3":"• Wifi",
-                "item4":"• Smart TV with Netflix",
-                "item5":"• Private bath",
-                "item6":"• Ilimitaded National Calls",
-                "price":"From $90.000"
-                }
+    "carouselAboutUs": {
+        "title1": " ",
+        "subtitle1": " ",
+        "title2": " ",
+        "subtitle2": " ",
+        "title3": " ",
+        "subtitle3": " "
+    },
+    "carouselRooms": {
+        "title1": " ",
+        "subtitle1": " ",
+        "title2": " ",
+        "subtitle2": " ",
+        "title3": " ",
+        "subtitle3": " "
+    },
+    "carouselEvents": {
+        "title1": " ",
+        "subtitle1": " ",
+        "title2": " ",
+        "subtitle2": " ",
+        "title3": " ",
+        "subtitle3": " "
+    },
+    "rooms": {
+        "title": "¡Encuentra la habitación que necesitas!",
+        "room1": {
+            "title": "Habitación Compartida",
+            "description": "Si buscas conocer nuevas personas, compartir experiencias y hacer nuevos amigos para disfrutar de las noches en Cali, esta habitación es para ti. Está compuesta por  camarotes (literas), lockers con su respectiva llave, ventilador y/o aire acondicionado y baño compartido.",
+            "totalBeds": "Número de Camas: 2 camarotes",
+            "totalPeople": "Número de Personas: 4",
+            "services": {
+                "servicesTitle": "Servicios y Comodidades:",
+                "item1": "• Aire Acondicionado",
+                "item2": "• Wifi – Ilimitado",
+                "item3": "• Llamadas Nacionales Ilimitadas",
+                "price": "Desde $23.000"
             }
-            
-        
-              
-            },
+        },
+        "room2": {
+            "title": "Habitación Compartida",
+            "description": "Si buscas conocer nuevas personas, compartir experiencias y hacer nuevos amigos para disfrutar de las noches en Cali, esta habitación es para ti. Está compuesta por  camarotes (literas), lockers con su respectiva llave, ventilador y/o aire acondicionado y baño compartido. ",
+            "totalBeds": "Número de Camas: 2 camarotes",
+            "totalPeople": "Número de Personas: 4",
+            "services": {
+                "servicesTitle": "Servicios y Comodidades:",
+                "item1": "• Aire Acondicionado",
+                "item2": "• Wifi – Ilimitado",
+                "item3": "• Llamadas Nacionales Ilimitadas",
+                "price": "Desde $23.000"
+            }
+        },
+        "room3": {
+            "title": "Habitación Doble Premium",
+            "description": "Si vienes a Cali con un familiar, amigo o socio por negocios o para disfrutar de la sucursal del cielo, esta habitación es una excelente opción. Consta de dos camas individuales, televisor (con servicio de Netflix incluido), ventilador y/o aire acondicionado y baño compartido. ",
+            "totalBeds": "Número de Camas: 2 Camas sencillas",
+            "totalPeople": "Número de Personas: 2",
+            "services": {
+                "servicesTitle": "Servicios y Comodidades:",
+                "item1": "• Aire Acondicionado",
+                "item2": "• Wifi – Ilimitado",
+                "item3": "• Smart TV con Netflix",
+                "item4": "• Baño Privado",
+                "item5": "• Llamadas Nacionales Ilimitadas",
+                "price": "Desde $55.000"
+            }
+        },
+        "room4": {
+            "title": "Habitación de Lujo",
+            "description": "Si vienes a Cali en pareja por negocios o para disfrutar de la sucursal del cielo, esta habitación es una excelente opción. Consta de una cama doble, un televisor (con servicio de Netflix incluido), ventilador y/o aire acondicionado y un baño privado. ",
+            "totalBeds": "Número de Camas: 1 cama doble, 1 cama sencilla",
+            "totalPeople": "Número de Personas: 3",
+            "services": {
+                "servicesTitle": "Servicios y Comodidades:",
+                "item1": "• Aire Acondicionado",
+                "item2": "• Wifi – Ilimitado",
+                "item3": "• Smart TV con Netflix",
+                "item4": "• Baño Privado",
+                "item5": "• Llamadas Nacionales Ilimitadas",
+                "price": "Desde $85.000"
+            }
+        },
+        "room5": {
+            "title": "Habitación de Lujo, 2 camas dobles",
+            "description": "Si vienes a Cali con amigos o familiares por negocios o para disfrutar de la sucursal del cielo, esta habitación es una excelente opción. Está compuesta por dos camas dobles, un televisor (con servicio de Netflix incluido) ventilador y/o aire acondicionado y baño privado.",
+            "totalBeds": "Número de Camas: 2 camas dobles",
+            "totalPeople": "Número de Personas: 4",
+            "services": {
+                "servicesTitle": "Servicios y Comodidades:",
+                "item1": "• Aire Acondicionado",
+                "item2": "• Wifi – Ilimitado",
+                "item3": "• Smart TV con Netflix",
+                "item4": "• Baño Privado",
+                "item5": "• Llamadas Nacionales Ilimitadas",
+                "price": "Desde $105.000"
+            }
+        }
+    },
     "footer": {
-        "ubication": "Location:",
-        "phone": "Contact:",
-        "title":"YOUR BEST PLACE IN CALI"
+        "ubication": "Ubicación:",
+        "phone": "Teléfonos:",
+        "title": "TU HOGAR EN LA SUCURSAL DEL CIELO"
     },
     "contact": {
-        "title": "Contact Us",
-        "name": "Name",
-        "phone":"Phone",
-        "email": "Email",
-        "totalPeople": "Total people",
-        "reserveDate": "Reserve Date",
-        "sinceDate": "Since",
-        "untilDate": "Until",
-        "comments": "Comments",
-        "send": "Send"
+        "title": "Contáctanos",
+        "name": "Nombre",
+        "phone": "Teléfono",
+        "email": "Correo electrónico",
+        "totalPeople": "Número de personas",
+        "reserveDate": "Fecha de reserva",
+        "sinceDate": "Desde",
+        "untilDate": "Hasta",
+        "comments": "¡Cuentanos!",
+        "send": "Enviar"
     }
 }
