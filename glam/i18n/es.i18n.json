@@ -64,9 +64,9 @@
             "services": {
                 "servicesTitle": "Servicios y Comodidades:",
                 "item1": "• Aire Acondicionado",
-                "item2": "• Wifi – Ilimitado",
+                "item2": "• Wifi",
                 "item3": "• Llamadas Nacionales Ilimitadas",
-                "price": "Desde $23.000"
+                "price": "Desde $25.000"
             }
         },
         "room2": {
@@ -77,9 +77,9 @@
             "services": {
                 "servicesTitle": "Servicios y Comodidades:",
                 "item1": "• Aire Acondicionado",
-                "item2": "• Wifi – Ilimitado",
+                "item2": "• Wifi",
                 "item3": "• Llamadas Nacionales Ilimitadas",
-                "price": "Desde $23.000"
+                "price": "Desde $25.000"
             }
         },
         "room3": {
@@ -94,7 +94,7 @@
                 "item3": "• Smart TV con Netflix",
                 "item4": "• Baño Privado",
                 "item5": "• Llamadas Nacionales Ilimitadas",
-                "price": "Desde $55.000"
+                "price": "Desde $60.000"
             }
         },
         "room4": {
@@ -109,7 +109,7 @@
                 "item3": "• Smart TV con Netflix",
                 "item4": "• Baño Privado",
                 "item5": "• Llamadas Nacionales Ilimitadas",
-                "price": "Desde $85.000"
+                "price": "Desde $90.000"
             }
         },
         "room5": {
@@ -124,7 +124,7 @@
                 "item3": "• Smart TV con Netflix",
                 "item4": "• Baño Privado",
                 "item5": "• Llamadas Nacionales Ilimitadas",
-                "price": "Desde $105.000"
+                "price": "Desde $120.000"
             }
         }
     },
