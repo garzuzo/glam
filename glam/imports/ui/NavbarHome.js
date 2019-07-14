@@ -46,7 +46,7 @@ class NavbarHome extends Component {
      
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto pl-5 text-center">
+          <Nav className="ml-auto  text-center">
             <Nav.Link >
               <Link
                 activeClass="active"
@@ -76,7 +76,7 @@ class NavbarHome extends Component {
             </Nav>
 
 
-          <Navbar.Brand className="mr-center  text-center ">
+          <Navbar.Brand className="text-center">
             <img className="brandNavbar img-fluid text-center"  src="/images/glamIcon.png"></img>
          
                 <h5>Barrio Granada  </h5>

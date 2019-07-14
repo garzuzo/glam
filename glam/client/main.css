@@ -17,12 +17,15 @@ body {
   height:40vh;
 }
 
-@media (min-width: 200px) {  
+@media (min-width: 300px) {  
   .carouselImg{
     height:50vh;
   }
+  h1{
+    font-size: 30px;
+  }
   .container {  
-    max-width: 180px;  
+    max-width: 270px;  
   } 
   #responsive-navbar-nav .nav-link{
     display: inline;
@@ -32,11 +35,15 @@ body {
   #responsive-navbar-nav h5{
     font-size: 12px;
   }
+  #responsive-navbar-nav .navbar-nav{
+    padding-left:0px;
   
+  }
   #responsive-navbar-nav .brandNavbar{
-    width:50px;
+    width:15%;
     font-size: 12px;
-  
+    
+    text-align: center;
   }
   
 } 
@@ -45,8 +52,11 @@ body {
   .carouselImg{
     height:50vh;
   }
+  h1{
+    font-size: 30px;
+  }
   .container {  
-    max-width: 540px;  
+    max-width: 560px;  
   } 
   #responsive-navbar-nav .nav-link{
     display: inline;
@@ -54,54 +64,76 @@ body {
     font-size: 15px;
   
   }
+  
   #responsive-navbar-nav h5{
     font-size: 15px;
   }
   
-  #responsive-navbar-nav .brandNavbar{
-    width:90px;
-    font-size: 15px;
+  
+  #responsive-navbar-nav .navbar-nav{
+    padding-left:0;
   
   }
-  #responsive-navbar-nav .navbar-brand{
-    align-items: center;
-  
+  #responsive-navbar-nav .brandNavbar{
+    width:15%;
+    font-size: 12px;
+    
+    text-align: center;
   }
   
 } 
 
 @media (min-width: 768px) {  
   .carouselImg{
-    height:100vh;
+    height:80vh;
   }
   .container {  
-    max-width: 720px;  
+    max-width: 740px;  
   } 
+  h1{
+    font-size: 30px;
+  }
   #responsive-navbar-nav .nav-link{
     display: inline;
     font-size: 18px;
   
   }
-  #responsive-navbar-nav Nav{
+  #responsive-navbar-nav .navbar-nav{
     display:inline-block;
   }
   #responsive-navbar-nav h5{
     font-size: 18px;
   }
   
-  #responsive-navbar-nav .brandNavbar{
-    width:90px;
-    font-size: 18px;
+  #responsive-navbar-nav .navbar-nav{
+    padding-left:0;
   
+  }
+  #responsive-navbar-nav .brandNavbar{
+    width:15%;
+    font-size: 12px;
+    margin:auto;
+    text-align: center;
   }
 } 
 @media (min-width: 992px) {  
   .carouselImg{
-    height:100vh;
+    height:90vh;
   }
   .container {  
     max-width: 960px;  
   } 
+
+  #responsive-navbar-nav .navbar-nav{
+    padding-left:0;
+  
+  }
+  #responsive-navbar-nav .brandNavbar{
+    width:20%;
+   
+    margin:auto;
+    text-align: center;
+  }
 } 
 @media (min-width:1200px) {  
   .carouselImg{
@@ -110,6 +142,16 @@ body {
   .container {  
     max-width: 1140px;  
   } 
+  #responsive-navbar-nav .navbar-nav{
+    padding-left:0;
+  
+  }
+  #responsive-navbar-nav .brandNavbar{
+    width:20%;
+    margin:auto;
+    
+    text-align: center;
+  }
 } 
 
 
@@ -140,11 +182,11 @@ ul{
   
 #navbarHome{
   opacity:0.9;
-
+  position: fixed;
   top: 0;
   left: 0;
 
-
+  display: flex;
   
  
   
