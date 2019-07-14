@@ -50,7 +50,7 @@ body {
 
 @media (min-width: 576px) {  
   .carouselImg{
-    height:50vh;
+    height:30vh;
   }
   h1{
     font-size: 25px;
@@ -74,6 +74,10 @@ body {
     padding-left:0;
   
   }
+  #responsive-navbar-nav .navbar-brand{
+    margin:auto; 
+    padding:auto;
+  }
   #responsive-navbar-nav .brandNavbar{
     width:15%;
     font-size: 12px;
@@ -85,7 +89,7 @@ body {
 
 @media (min-width: 768px) {  
   .carouselImg{
-    height:80vh;
+    height:30vh;
   }
   .container {  
     max-width: 740px;  
@@ -95,43 +99,61 @@ body {
   }
   #responsive-navbar-nav .nav-link{
     display: inline;
-    font-size: 18px;
+ 
+    font-size: 15px;
   
   }
-  #responsive-navbar-nav .navbar-nav{
-    display:inline-block;
-  }
+  
   #responsive-navbar-nav h5{
-    font-size: 18px;
+    font-size: 15px;
   }
+  
   
   #responsive-navbar-nav .navbar-nav{
     padding-left:0;
   
   }
+  #responsive-navbar-nav .navbar-brand{
+    margin:auto; 
+    padding:auto;
+  }
   #responsive-navbar-nav .brandNavbar{
     width:15%;
     font-size: 12px;
-    margin:auto;
+ 
     text-align: center;
   }
 } 
 @media (min-width: 992px) {  
   .carouselImg{
-    height:90vh;
+    height:40vh;
   }
   .container {  
     max-width: 960px;  
   } 
-
+  #responsive-navbar-nav .nav-link{
+    display: inline;
+ 
+    font-size: 15px;
+  
+  }
+  
+  #responsive-navbar-nav h5{
+    font-size: 15px;
+  }
+  
+  
   #responsive-navbar-nav .navbar-nav{
     padding-left:0;
   
   }
+  #responsive-navbar-nav .navbar-brand{
+    margin:auto; 
+  }
   #responsive-navbar-nav .brandNavbar{
-    width:20%;
-   
-    margin:auto;
+    width:15%;
+    font-size: 12px;
+ 
     text-align: center;
   }
 } 
@@ -146,9 +168,12 @@ body {
     padding-left:0;
   
   }
+  #responsive-navbar-nav .navbar-brand{
+    margin:auto; 
+  }
   #responsive-navbar-nav .brandNavbar{
     width:20%;
-    margin:auto;
+ 
     
     text-align: center;
   }
