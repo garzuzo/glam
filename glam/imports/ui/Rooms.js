@@ -25,7 +25,7 @@ export default class Rooms extends Component {
                     <Carousel.Item>
                         <img
                             className="d-block w-100 carouselImg"
-                            src="./images/roomscarousel/catroom.jpg"
+                            src="./images/roomscarousel/danceroom.jpg"
                             alt="First slide"
                         />
                         <Carousel.Caption>
@@ -107,16 +107,16 @@ export default class Rooms extends Component {
                     <hr></hr>
                     <div className="containerRooms pb-2" >
                         <div className="row">
-                            <div className="col-sm">
+                            <div className="col-lg-4">
                                 <h5><T>Common.rooms.room2.title</T></h5>
                                 <img className="img-fluid" style={styleRoom} src="./images/rooms/cabinblue.jpg" />
                             </div>
 
-                            <div className="col-sm">
+                            <div className="col-lg-4">
                                 <p><T>Common.rooms.room2.description</T></p>
                             </div>
 
-                            <div className="col-sm">
+                            <div className="col-lg-4">
                                 <p><T>Common.rooms.room2.totalBeds</T></p>
                                 <p><T>Common.rooms.room2.totalPeople</T></p>
 
@@ -150,17 +150,17 @@ export default class Rooms extends Component {
 
                     <div className="containerRooms pb-2" >
                         <div className="row">
-                            <div className="col-sm">
+                            <div className="col-lg-4">
                                 <h5><T>Common.rooms.room3.title</T></h5>
                                 <img className="img-fluid" style={styleRoom} src="./images/rooms/cat.jpg" />
                             </div>
 
 
-                            <div className="col-sm">
+                            <div className="col-lg-4">
                                 <p><T>Common.rooms.room3.description</T></p>
                             </div>
 
-                            <div className="col-sm">
+                            <div className="col-lg-4">
                                 <p><T>Common.rooms.room3.totalBeds</T></p>
                                 <p><T>Common.rooms.room3.totalPeople</T></p>
 
@@ -203,17 +203,17 @@ export default class Rooms extends Component {
 
                     <div className="containerRooms pb-2" >
                         <div className="row">
-                            <div className="col-sm">
+                            <div className="col-lg-4">
 
                                 <h5><T>Common.rooms.room4.title</T></h5>
                                 <img className="img-fluid" style={styleRoom} src="./images/rooms/cristorey.jpg" />
                             </div>
 
-                            <div className="col-sm">
+                            <div className="col-lg-4">
                                 <p><T>Common.rooms.room4.description</T></p>
                             </div>
 
-                            <div className="col-sm">
+                            <div className="col-lg-4">
                                 <p><T>Common.rooms.room4.totalBeds</T></p>
                                 <p><T>Common.rooms.room4.totalPeople</T></p>
 
@@ -255,17 +255,17 @@ export default class Rooms extends Component {
 
                     <div className="containerRooms pb-2" >
                         <div className="row">
-                            <div className="col-sm">
+                            <div className="col-lg-4">
                                 <h5><T>Common.rooms.room5.title</T></h5>
                                 <img className="img-fluid" style={styleRoom} src="./images/rooms/belalcazar.jpg" />
                             </div>
 
 
-                            <div className="col-sm">
+                            <div className="col-lg-4">
                                 <p><T>Common.rooms.room5.description</T></p>
                             </div>
 
-                            <div className="col-sm">
+                            <div className="col-lg-4">
                                 <p><T>Common.rooms.room5.totalBeds</T></p>
                                 <p><T>Common.rooms.room5.totalPeople</T></p>
 

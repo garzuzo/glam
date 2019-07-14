@@ -41,10 +41,11 @@ class NavbarHome extends Component {
     return (
       <div className="NavbarHome"  >
 
-        <Navbar fixed="top" id="navbarHome" bg="light">
+        <Navbar collapseOnSelect expand="lg" fixed="top" id="navbarHome" bg="light">
 
      
-
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto pl-5 text-center">
             <Nav.Link >
               <Link
@@ -75,8 +76,8 @@ class NavbarHome extends Component {
             </Nav>
 
 
-          <Navbar.Brand className="ml-4 mr-4 text-center">
-            <img src="/images/glamIcon.png" style={glamIcon}></img>
+          <Navbar.Brand className="mr-center  text-center ">
+            <img className="brandNavbar img-fluid text-center"  src="/images/glamIcon.png"></img>
          
                 <h5>Barrio Granada  </h5>
                 
@@ -116,14 +117,14 @@ class NavbarHome extends Component {
 
           </Nav>
 
-          <Nav className="ml-auto">
+          <Nav className="ml-auto text-center">
             <NavDropdown eventKey={5} title={<T>Common.navbar.selectLanguage</T>} id="nav-dropdown" onSelect={this.handleSelect.bind(this)}>
               <Dropdown.Item eventKey={5.1}><img src="./icons/es.png" />ES</Dropdown.Item>
               <Dropdown.Item eventKey={5.2} ><img src="./icons/en.png" />EN</Dropdown.Item>
 
             </NavDropdown>
           </Nav>
-          
+          </Navbar.Collapse>
         </Navbar>
       </div>
     );

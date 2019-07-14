@@ -37,7 +37,7 @@ export default class CarouselHome extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100 carouselImg"
-      src="./images/carousel/viewtrescruces.jpg"
+      src="./images/carousel/balcony.jpg"
       alt="Third slide"
     />
 

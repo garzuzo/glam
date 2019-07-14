@@ -14,8 +14,104 @@ body {
 }
 
 .carouselImg{
-  height:100vh;
+  height:40vh;
 }
+
+@media (min-width: 200px) {  
+  .carouselImg{
+    height:50vh;
+  }
+  .container {  
+    max-width: 180px;  
+  } 
+  #responsive-navbar-nav .nav-link{
+    display: inline;
+    font-size: 12px;
+  
+  }
+  #responsive-navbar-nav h5{
+    font-size: 12px;
+  }
+  
+  #responsive-navbar-nav .brandNavbar{
+    width:50px;
+    font-size: 12px;
+  
+  }
+  
+} 
+
+@media (min-width: 576px) {  
+  .carouselImg{
+    height:50vh;
+  }
+  .container {  
+    max-width: 540px;  
+  } 
+  #responsive-navbar-nav .nav-link{
+    display: inline;
+ 
+    font-size: 15px;
+  
+  }
+  #responsive-navbar-nav h5{
+    font-size: 15px;
+  }
+  
+  #responsive-navbar-nav .brandNavbar{
+    width:90px;
+    font-size: 15px;
+  
+  }
+  #responsive-navbar-nav .navbar-brand{
+    align-items: center;
+  
+  }
+  
+} 
+
+@media (min-width: 768px) {  
+  .carouselImg{
+    height:100vh;
+  }
+  .container {  
+    max-width: 720px;  
+  } 
+  #responsive-navbar-nav .nav-link{
+    display: inline;
+    font-size: 18px;
+  
+  }
+  #responsive-navbar-nav Nav{
+    display:inline-block;
+  }
+  #responsive-navbar-nav h5{
+    font-size: 18px;
+  }
+  
+  #responsive-navbar-nav .brandNavbar{
+    width:90px;
+    font-size: 18px;
+  
+  }
+} 
+@media (min-width: 992px) {  
+  .carouselImg{
+    height:100vh;
+  }
+  .container {  
+    max-width: 960px;  
+  } 
+} 
+@media (min-width:1200px) {  
+  .carouselImg{
+    height:100vh;
+  }
+  .container {  
+    max-width: 1140px;  
+  } 
+} 
+
 
 #appContainer{
   margin-left: 0px;
@@ -44,11 +140,11 @@ ul{
   
 #navbarHome{
   opacity:0.9;
-  position: fixed;
+
   top: 0;
   left: 0;
 
-  display: flex;
+
   
  
   
