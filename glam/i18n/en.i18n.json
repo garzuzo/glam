@@ -9,25 +9,25 @@
         "selectLanguage": "Language"
     },
     "about": {
-        "title": "Sobre nosotros",
+        "title": "About us",
         "intro": {
-            "firstParagraph": "Si estás pensando en confort, economía y diversión, ¡Hotel GLAM es tu mejor opción!",
-            "secondParagraph": "Situado en el distinguido sector de Granada a pocos pasos de la zona mejor Zona Gastronómica de Cali, Boutiques de los más reconocidos diseñadores de Colombia, con los mejores Sitios de Rumba y Diversión."
+            "firstParagraph": "If you are thinking about comfort, economy and fun, Hotel GLAM is your best option!",
+            "secondParagraph": "Located in the distinguished sector of Granada a few steps from the best area of the Gastronomic Zone of Cali, Boutiques of the most renowned designers in Colombia, with the best Rumba and Fun Sites."
         },
         "ourIncludedServices": {
-            "title": "Nuestros Servicios Incluidos",
-            "item1": "Atención personalizada a nuestros huéspedes",
-            "item2": "Habitaciones completamente nuevas y confortables",
-            "item3": "Internet Wifi Ilimitado – Banda Ancha",
-            "item4": "Netflix para tu Diversión las 24 Horas",
-            "item5": "Llamadas Nacionales Ilimitadas",
-            "item6": "Programas de Diversión - Sitios de Interés",
-            "item7": "Recepción y Seguridad las 24 Horas"
+            "title": "Our Services Included",
+            "item1": "Personalized attention to our guests",
+            "item2": "Completely new and comfortable rooms",
+            "item3": "Wifi",
+            "item4": "Netflix for your Fun 24 Hours",
+            "item5": "Unlimited National Calls",
+            "item6": "Fun Programs - Sites of Interest",
+            "item7": "Reception and Security 24 Hours"
         },
         "aditionalServices": {
-            "title": "Servicios Adicionales",
-            "item1": "Restaurante y Bar",
-            "item2": "Servicio de Lavandería"
+            "title": "Additional services",
+            "item1": "Bar and Restaurant",
+            "item2": "Laundry service"
         }
     },
     "carouselAboutUs": {
@@ -55,94 +55,94 @@
         "subtitle3": " "
     },
     "rooms": {
-        "title": "¡Encuentra la habitación que necesitas!",
+        "title": "Find the room you need!",
         "room1": {
-            "title": "Habitación Compartida",
-            "description": "Si buscas conocer nuevas personas, compartir experiencias y hacer nuevos amigos para disfrutar de las noches en Cali, esta habitación es para ti. Está compuesta por  camarotes (literas), lockers con su respectiva llave, ventilador y/o aire acondicionado y baño compartido.",
-            "totalBeds": "Número de Camas: 2 camarotes",
-            "totalPeople": "Número de Personas: 4",
+            "title": "Shared room",
+            "description": "If you are looking to meet new people, share experiences and make new friends to enjoy the nights in Cali, this room is for you. It consists of cabins (bunk beds), lockers with their respective key, fan and / or air conditioning and shared bathroom.",
+            "totalBeds": "Number of Beds: 2 cabins",
+            "totalPeople": "Number of People: 4",
             "services": {
-                "servicesTitle": "Servicios y Comodidades:",
-                "item1": "• Aire Acondicionado",
+                "servicesTitle": "Services and Amenities:",
+                "item1": "• Air conditioner",
                 "item2": "• Wifi",
-                "item3": "• Llamadas Nacionales Ilimitadas",
-                "price": "Desde $25.000"
+                "item3": "• Unlimited National Calls",
+                "price": "From $25.000COP"
             }
         },
         "room2": {
-            "title": "Habitación Compartida",
-            "description": "Si buscas conocer nuevas personas, compartir experiencias y hacer nuevos amigos para disfrutar de las noches en Cali, esta habitación es para ti. Está compuesta por  camarotes (literas), lockers con su respectiva llave, ventilador y/o aire acondicionado y baño compartido. ",
-            "totalBeds": "Número de Camas: 2 camarotes",
-            "totalPeople": "Número de Personas: 4",
+            "title": "Shared room",
+            "description": "If you are looking to meet new people, share experiences and make new friends to enjoy the nights in Cali, this room is for you. It consists of cabins (bunk beds), lockers with their respective key, fan and / or air conditioning and shared bathroom.",
+            "totalBeds": "Number of Beds: 2 cabins",
+            "totalPeople": "Number of People: 4",
             "services": {
-                "servicesTitle": "Servicios y Comodidades:",
-                "item1": "• Aire Acondicionado",
+                "servicesTitle": "Services and Amenities:",
+                "item1": "• Air conditioner",
                 "item2": "• Wifi",
-                "item3": "• Llamadas Nacionales Ilimitadas",
-                "price": "Desde $25.000"
+                "item3": "• Unlimited National Calls",
+                "price": "From $25.000COP"
             }
         },
         "room3": {
-            "title": "Habitación Doble Premium",
-            "description": "Si vienes a Cali con un familiar, amigo o socio por negocios o para disfrutar de la sucursal del cielo, esta habitación es una excelente opción. Consta de dos camas individuales, televisor (con servicio de Netflix incluido), ventilador y/o aire acondicionado y baño compartido. ",
-            "totalBeds": "Número de Camas: 2 Camas sencillas",
-            "totalPeople": "Número de Personas: 2",
+            "title": "Premium Double Room",
+            "description": "If you come to Cali with a family member, friend or business partner or to enjoy the branch of heaven, this room is an excellent option. It consists of two single beds, TV (with Netflix service included), fan and / or air conditioning and shared bathroom.",
+            "totalBeds": "Number of Beds: 2 Single Beds",
+            "totalPeople": "Number of People: 2",
             "services": {
-                "servicesTitle": "Servicios y Comodidades:",
-                "item1": "• Aire Acondicionado",
-                "item2": "• Wifi – Ilimitado",
-                "item3": "• Smart TV con Netflix",
-                "item4": "• Baño Privado",
-                "item5": "• Llamadas Nacionales Ilimitadas",
-                "price": "Desde $60.000"
+                "servicesTitle": "Services and Amenities:",
+                "item1": "• Air conditioner",
+                "item2": "• Wifi",
+                "item3": "• Smart TV with Netflix",
+                "item4": "• Private bathroom",
+                "item5": "• Unlimited National Calls",
+                "price": "From $60.000COP"
             }
         },
         "room4": {
-            "title": "Habitación de Lujo",
-            "description": "Si vienes a Cali en pareja por negocios o para disfrutar de la sucursal del cielo, esta habitación es una excelente opción. Consta de una cama doble, un televisor (con servicio de Netflix incluido), ventilador y/o aire acondicionado y un baño privado. ",
-            "totalBeds": "Número de Camas: 1 cama doble, 1 cama sencilla",
-            "totalPeople": "Número de Personas: 3",
+            "title": "Deluxe Room",
+            "description": "If you come to Cali as a couple for business or to enjoy the branch of heaven, this room is an excellent option. It consists of a double bed, a TV (with Netflix service included), fan and / or air conditioning and a private bathroom.",
+            "totalBeds": "Number of Beds: 1 double bed, 1 single bed",
+            "totalPeople": "Number of People: 3",
             "services": {
-                "servicesTitle": "Servicios y Comodidades:",
-                "item1": "• Aire Acondicionado",
-                "item2": "• Wifi – Ilimitado",
-                "item3": "• Smart TV con Netflix",
-                "item4": "• Baño Privado",
-                "item5": "• Llamadas Nacionales Ilimitadas",
-                "price": "Desde $90.000"
+                "servicesTitle": "Services and Amenities:",
+                "item1": "• Air conditioner",
+                "item2": "• Wifi",
+                "item3": "• Smart TV with Netflix",
+                "item4": "• Private bathroom",
+                "item5": "• Unlimited National Calls",
+                "price": "From $90.000COP"
             }
         },
         "room5": {
-            "title": "Habitación de Lujo, 2 camas dobles",
-            "description": "Si vienes a Cali con amigos o familiares por negocios o para disfrutar de la sucursal del cielo, esta habitación es una excelente opción. Está compuesta por dos camas dobles, un televisor (con servicio de Netflix incluido) ventilador y/o aire acondicionado y baño privado.",
-            "totalBeds": "Número de Camas: 2 camas dobles",
-            "totalPeople": "Número de Personas: 4",
+            "title": "Deluxe Room, 2 Double Beds",
+            "description": "If you come to Cali with friends or family for business or to enjoy the branch of heaven, this room is an excellent option. It consists of two double beds, a TV (with Netflix service included) fan and / or air conditioning and private bathroom.",
+            "totalBeds": "Number of Beds: 2 double beds",
+            "totalPeople": "Number of People: 4",
             "services": {
-                "servicesTitle": "Servicios y Comodidades:",
-                "item1": "• Aire Acondicionado",
-                "item2": "• Wifi – Ilimitado",
-                "item3": "• Smart TV con Netflix",
-                "item4": "• Baño Privado",
-                "item5": "• Llamadas Nacionales Ilimitadas",
-                "price": "Desde $120.000"
+                "servicesTitle": "Services and Amenities:",
+                "item1": "• Air conditioner",
+                "item2": "• Wifi",
+                "item3": "• Smart TV with Netflix",
+                "item4": "• Private bathroom",
+                "item5": "• Unlimited National Calls",
+                "price": "From $120.000COP"
             }
         }
     },
     "footer": {
-        "ubication": "Ubicación:",
-        "phone": "Teléfonos:",
-        "title": "TU HOGAR EN LA SUCURSAL DEL CIELO"
+        "ubication": "Location:",
+        "phone": "Phones:",
+        "title": "YOUR HOME IN THE BRANCH OF HEAVEN"
     },
     "contact": {
-        "title": "Contáctanos",
-        "name": "Nombre",
-        "phone": "Teléfono",
-        "email": "Correo electrónico",
-        "totalPeople": "Número de personas",
-        "reserveDate": "Fecha de reserva",
-        "sinceDate": "Desde",
-        "untilDate": "Hasta",
-        "comments": "¡Cuentanos!",
-        "send": "Enviar"
+        "title": "Contact us",
+        "name": "Name",
+        "phone": "Phone",
+        "email": "Email",
+        "totalPeople": "Number of people",
+        "reserveDate": "Reservation date",
+        "sinceDate": "From",
+        "untilDate": "To",
+        "comments": "Tell us!",
+        "send": "Send"
     }
 }
