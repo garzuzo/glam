@@ -96,6 +96,14 @@ export default class Rooms extends Component {
 
                                     </li>
                                    
+                                    <li>
+                                        <T>Common.rooms.room1.services.item4</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room1.services.item5</T>
+
+                                    </li>
                                 </ul>
                                 <p>
                                     <T>Common.rooms.room1.services.price</T>
@@ -135,7 +143,14 @@ export default class Rooms extends Component {
                                         <T>Common.rooms.room2.services.item3</T>
 
                                     </li>
-                                   
+                                    <li>
+                                        <T>Common.rooms.room1.services.item4</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room1.services.item5</T>
+
+                                    </li>
                                 </ul>
                                 <p>
                                     <T>Common.rooms.room2.services.price</T>
@@ -187,7 +202,14 @@ export default class Rooms extends Component {
                                         <T>Common.rooms.room3.services.item5</T>
 
                                     </li>
-                                    
+                                    <li>
+                                        <T>Common.rooms.room1.services.item6</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room1.services.item7</T>
+
+                                    </li>
                                 </ul>
                                 <p>
                                     <T>Common.rooms.room3.services.price</T>
@@ -240,7 +262,14 @@ export default class Rooms extends Component {
                                         <T>Common.rooms.room4.services.item5</T>
 
                                     </li>
-                                   
+                                    <li>
+                                        <T>Common.rooms.room1.services.item6</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room1.services.item7</T>
+
+                                    </li>
                                 </ul>
                                 <p>
                                     <T>Common.rooms.room4.services.price</T>
@@ -292,7 +321,14 @@ export default class Rooms extends Component {
                                         <T>Common.rooms.room5.services.item5</T>
 
                                     </li>
-                                    
+                                    <li>
+                                        <T>Common.rooms.room1.services.item6</T>
+
+                                    </li>
+                                    <li>
+                                        <T>Common.rooms.room1.services.item7</T>
+
+                                    </li>
                                 </ul>
                                 <p>
                                     <T>Common.rooms.room5.services.price</T>

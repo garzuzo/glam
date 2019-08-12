@@ -26,7 +26,7 @@ export default class Footer extends Component {
                         <div className="col-sm">
                             <ul>
                                 <h6><T>Common.footer.phone</T></h6>
-                                <li>(57) 316 – 4829002</li>
+                                <li>(57) 304 - 6203379</li>
                                 <li>(57) 393 – 9878</li>
                                 <li>contacto@glamhoteles.com</li>
                             </ul>

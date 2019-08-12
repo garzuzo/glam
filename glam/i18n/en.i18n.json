@@ -18,7 +18,7 @@
             "title": "Our Services Included",
             "item1": "Personalized attention to our guests",
             "item2": "Completely new and comfortable rooms",
-            "item3": "Wifi",
+            "item3": "Wifi - Optical Fiber",
             "item4": "Netflix for your Fun 24 Hours",
             "item5": "Unlimited National Calls",
             "item6": "Fun Programs - Sites of Interest",
@@ -63,9 +63,12 @@
             "totalPeople": "Number of People: 4",
             "services": {
                 "servicesTitle": "Services and Amenities:",
-                "item1": "• Air conditioner",
+                "item1": "• Fan",
                 "item2": "• Wifi",
                 "item3": "• Unlimited National Calls",
+                "item4":  "• Towels",
+                "item5":  "• Hand and body soap",
+
                 "price": "From $25.000COP"
             }
         },
@@ -79,7 +82,9 @@
                 "item1": "• Air conditioner",
                 "item2": "• Wifi",
                 "item3": "• Unlimited National Calls",
-                "price": "From $25.000COP"
+                "item4":  "• Towels",
+                "item5":  "• Hand and body soap",
+                "price": "From $30.000COP"
             }
         },
         "room3": {
@@ -94,6 +99,8 @@
                 "item3": "• Smart TV with Netflix",
                 "item4": "• Private bathroom",
                 "item5": "• Unlimited National Calls",
+                "item6":  "• Towels",
+                "item7":  "• Hand and body soap",
                 "price": "From $60.000COP"
             }
         },
@@ -109,6 +116,8 @@
                 "item3": "• Smart TV with Netflix",
                 "item4": "• Private bathroom",
                 "item5": "• Unlimited National Calls",
+                "item6":  "• Towels",
+                "item7":  "• Hand and body soap",
                 "price": "From $90.000COP"
             }
         },
@@ -124,6 +133,8 @@
                 "item3": "• Smart TV with Netflix",
                 "item4": "• Private bathroom",
                 "item5": "• Unlimited National Calls",
+                "item6":  "• Towels",
+                "item7":  "• Hand and body soap",
                 "price": "From $120.000COP"
             }
         }

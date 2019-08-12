@@ -63,9 +63,11 @@
             "totalPeople": "Número de Personas: 4",
             "services": {
                 "servicesTitle": "Servicios y Comodidades:",
-                "item1": "• Aire Acondicionado",
+                "item1": "• Ventilador",
                 "item2": "• Wifi",
                 "item3": "• Llamadas Nacionales Ilimitadas",
+                "item4":  "• Toallas",
+                "item5":  "• Jabón de manos y cuerpo",
                 "price": "Desde $25.000"
             }
         },
@@ -79,7 +81,9 @@
                 "item1": "• Aire Acondicionado",
                 "item2": "• Wifi",
                 "item3": "• Llamadas Nacionales Ilimitadas",
-                "price": "Desde $25.000"
+                "item4":  "• Toallas",
+                "item5":  "• Jabón de manos y cuerpo",
+                "price": "Desde $30.000"
             }
         },
         "room3": {
@@ -94,6 +98,8 @@
                 "item3": "• Smart TV con Netflix",
                 "item4": "• Baño Privado",
                 "item5": "• Llamadas Nacionales Ilimitadas",
+                "item6":  "• Toallas",
+                "item7":  "• Jabón de manos y cuerpo",
                 "price": "Desde $60.000"
             }
         },
@@ -109,6 +115,8 @@
                 "item3": "• Smart TV con Netflix",
                 "item4": "• Baño Privado",
                 "item5": "• Llamadas Nacionales Ilimitadas",
+                "item6":  "• Toallas",
+                "item7":  "• Jabón de manos y cuerpo",
                 "price": "Desde $90.000"
             }
         },
@@ -124,6 +132,8 @@
                 "item3": "• Smart TV con Netflix",
                 "item4": "• Baño Privado",
                 "item5": "• Llamadas Nacionales Ilimitadas",
+                "item6":  "• Toallas",
+                "item7":  "• Jabón de manos y cuerpo",
                 "price": "Desde $120.000"
             }
         }
