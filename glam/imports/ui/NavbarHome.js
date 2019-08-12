@@ -79,7 +79,7 @@ class NavbarHome extends Component {
           <Navbar.Brand className="text-center">
             <img className="brandNavbar img-fluid text-center"  src="/images/glamIcon.png"></img>
          
-                <h5>Barrio Granada  </h5>
+                <h5>Granada Cali </h5>
                 
             
           </Navbar.Brand>

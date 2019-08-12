@@ -22,6 +22,18 @@ export default class CarouselHome extends Component {
       <p><T>Common.carouselAboutUs.subtitle1</T></p>
     </Carousel.Caption>
   </Carousel.Item>
+
+  <Carousel.Item>
+    <img
+      className="d-block w-100 carouselImg"
+      src="./images/carousel/livingfull.jpeg"
+      alt="Second slide"
+    />
+    <Carousel.Caption>
+    <h3><T>Common.carouselAboutUs.title1</T></h3>
+      <p><T>Common.carouselAboutUs.subtitle1</T></p>
+    </Carousel.Caption>
+  </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100 carouselImg"
@@ -38,7 +50,7 @@ export default class CarouselHome extends Component {
     <img
       className="d-block w-100 carouselImg"
       src="./images/carousel/balcony.jpg"
-      alt="Third slide"
+      alt="Fourt slide"
     />
 
     <Carousel.Caption>

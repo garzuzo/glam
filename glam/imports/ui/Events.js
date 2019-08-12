@@ -14,7 +14,7 @@ export default class Events extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100 carouselImg"
-      src="https://images.pexels.com/photos/787961/pexels-photo-787961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      src="./images/eventscarousel/events1.jpeg"
       alt="First slide"
     />
     <Carousel.Caption>
