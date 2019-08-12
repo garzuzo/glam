@@ -144,11 +144,11 @@ export default class Rooms extends Component {
 
                                     </li>
                                     <li>
-                                        <T>Common.rooms.room1.services.item4</T>
+                                        <T>Common.rooms.room2.services.item4</T>
 
                                     </li>
                                     <li>
-                                        <T>Common.rooms.room1.services.item5</T>
+                                        <T>Common.rooms.room2.services.item5</T>
 
                                     </li>
                                 </ul>
@@ -203,11 +203,11 @@ export default class Rooms extends Component {
 
                                     </li>
                                     <li>
-                                        <T>Common.rooms.room1.services.item6</T>
+                                        <T>Common.rooms.room3.services.item6</T>
 
                                     </li>
                                     <li>
-                                        <T>Common.rooms.room1.services.item7</T>
+                                        <T>Common.rooms.room3.services.item7</T>
 
                                     </li>
                                 </ul>
@@ -263,11 +263,11 @@ export default class Rooms extends Component {
 
                                     </li>
                                     <li>
-                                        <T>Common.rooms.room1.services.item6</T>
+                                        <T>Common.rooms.room4.services.item6</T>
 
                                     </li>
                                     <li>
-                                        <T>Common.rooms.room1.services.item7</T>
+                                        <T>Common.rooms.room4.services.item7</T>
 
                                     </li>
                                 </ul>
@@ -322,11 +322,11 @@ export default class Rooms extends Component {
 
                                     </li>
                                     <li>
-                                        <T>Common.rooms.room1.services.item6</T>
+                                        <T>Common.rooms.room5.services.item6</T>
 
                                     </li>
                                     <li>
-                                        <T>Common.rooms.room1.services.item7</T>
+                                        <T>Common.rooms.room5.services.item7</T>
 
                                     </li>
                                 </ul>
