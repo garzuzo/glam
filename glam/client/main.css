@@ -171,9 +171,13 @@ body {
   #responsive-navbar-nav .navbar-brand{
     margin:auto; 
   }
+  #navbarHome{
+    height: 13%;
+  }
   #responsive-navbar-nav .brandNavbar{
-    width:20%;
+    width:8%;
  
+    
     
     text-align: center;
   }
@@ -214,7 +218,6 @@ ul{
   display: flex;
   
  
-  
   width:100%;
   
   /**width: $sidebar-base-width;height: 100vh;*/
