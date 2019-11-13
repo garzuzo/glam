@@ -159,7 +159,7 @@ body {
 } 
 @media (min-width:1200px) {  
   .carouselImg{
-    height:100vh;
+    height:80vh;
   }
   .container {  
     max-width: 1140px;  

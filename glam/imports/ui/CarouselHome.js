@@ -14,7 +14,7 @@ export default class CarouselHome extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100 carouselImg"
-      src="./images/carousel/pauta_noviembre_festivos-03.png"
+      src="./images/carousel/pauta_nov.jpeg"
       alt="First slide"
     />
     <Carousel.Caption>
