@@ -14,7 +14,7 @@ export default class CarouselHome extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100 carouselImg"
-      src="./images/carousel/pauta_nov.jpeg"
+      src="./images/carousel/balcony2.jpg"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -49,7 +49,7 @@ export default class CarouselHome extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100 carouselImg"
-      src="./images/carousel/balcony.jpg"
+      src="./images/carousel/terrace1.jpg"
       alt="Fourt slide"
     />
 
